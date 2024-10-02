@@ -3,7 +3,7 @@ import React from "react";
 const Events = () => {
   return (
     <div>
-      <p className="md:text-[30px] text-[20px] md:ml-2 ml-14 text-green-400 pb-[20px]">Events</p>
+      <p className="md:text-[30px] text-[20px] md:ml-2 ml-20 text-green-400 pb-[20px]">Events</p>
       <div className="container mx-auto md:w-full md:h-full w-[360px] h-[2000px]">
 
         
@@ -11,7 +11,7 @@ const Events = () => {
         {/* Example Grid Items */}
 
 
-        <div className="  rounded-[20px] md:w-1/2 lg:w-1/3 xl:1/4 p-2">
+        <div className="  rounded-[20px] md:w-1/2 lg:w-1/3 xl:1/4 md:pl-2 pl-8 md:pr-2 pr-0 pt-2 pb-2">
         <img
         src={"event.jpg"}
         alt={""}
@@ -24,7 +24,7 @@ const Events = () => {
         </div>
 
 
-        <div className="  rounded-[20px] w-full md:w-1/2 lg:w-1/3 xl:1/4 p-2">
+        <div className="  rounded-[20px] w-full md:w-1/2 lg:w-1/3 xl:1/4 md:pl-2 pl-8 md:pr-2 pr-0 pt-2 pb-2">
         <img
         src={"event.jpg"}
         alt={""}
@@ -37,7 +37,7 @@ const Events = () => {
         </div>
         
 
-        <div className="  rounded-[20px] w-full md:w-1/2 lg:w-1/3 xl:1/4 p-2">
+        <div className="  rounded-[20px] w-full md:w-1/2 lg:w-1/3 xl:1/4 md:pl-2 pl-8 md:pr-2 pr-0 pt-2 pb-2">
         <img
         src={"event.jpg"}
         alt={""}
@@ -50,7 +50,7 @@ const Events = () => {
         </div>
 
 
-        <div className=" rounded-[20px] w-full md:w-1/2 lg:w-1/3 xl:1/4 p-2">
+        <div className=" rounded-[20px] w-full md:w-1/2 lg:w-1/3 xl:1/4 md:pl-2 pl-8 md:pr-2 pr-0 pt-2 pb-2">
         <img
         src={"event.jpg"}
         alt={""}
@@ -62,7 +62,7 @@ const Events = () => {
        <p className="text-white font-[Inter] md:text-[18px] text-[15px]">Event Description vayvchac asvycvahsc ashvcyuavsc hvsuyasvcyvascvuyavsc ascyavsyvac ayscvyvasycva casvcyuascv</p>
         </div>
 
-        <div className="  rounded-[20px] w-full md:w-1/2 lg:w-1/3 xl:1/4 p-2">
+        <div className="  rounded-[20px] w-full md:w-1/2 lg:w-1/3 xl:1/4 md:pl-2 pl-8 md:pr-2 pr-0 pt-2 pb-2">
         <img
         src={"event.jpg"}
         alt={""}
@@ -74,7 +74,7 @@ const Events = () => {
        <p className="text-white font-[Inter] md:text-[18px] text-[15px]">Event Description vayvchac asvycvahsc ashvcyuavsc hvsuyasvcyvascvuyavsc ascyavsyvac ayscvyvasycva casvcyuascv</p>
         </div>
 
-        <div className="  rounded-[20px] w-full md:w-1/2 lg:w-1/3 xl:1/4 p-2">
+        <div className="  rounded-[20px] w-full md:w-1/2 lg:w-1/3 xl:1/4 md:pl-2 pl-8 md:pr-2 pr-0 pt-2 pb-2">
         <img
         src={"event.jpg"}
         alt={""}
