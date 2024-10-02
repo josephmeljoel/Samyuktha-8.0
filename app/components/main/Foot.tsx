@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-<footer className="md:flex md:w-full w-[360px] md:h-[350px] shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10  justify-between">
+<footer className="md:flex w-full md:h-[350px] shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10  justify-between">
 <div>
   <img
     src="/collegelogo.jpg"

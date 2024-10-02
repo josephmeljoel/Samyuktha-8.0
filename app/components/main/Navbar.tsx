@@ -12,7 +12,7 @@ const Navbar = () => {
             alt="logo"
             width={70}
             height={70}
-            className="md:w-[50px] md:ml-[30px] ml-[0px] md:h-[50px] w-[35px] h-[35px] cursor-pointer rounded-[10px] hover:animate-slowspin"
+            className="md:w-[50px] md:ml-[30px] ml-[0px] mr-[10px] md:mr-[0px] md:h-[50px] w-[35px] h-[35px] cursor-pointer rounded-[10px] hover:animate-slowspin"
           />
         
 
