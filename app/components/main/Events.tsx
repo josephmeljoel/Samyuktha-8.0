@@ -3,7 +3,7 @@ import React from "react";
 const Events = () => {
   return (
     <div>
-      <p className="md:text-[30px] text-[20px] md:ml-2 ml-20 text-green-400 pb-[20px]">Events</p>
+      <p className="md:text-[30px] text-[20px] ml-2 text-green-400 pb-[20px]">Events</p>
       <div className="container mx-auto md:w-full md:h-full w-[360px] h-[2000px]">
 
         
