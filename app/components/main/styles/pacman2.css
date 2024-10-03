@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .pacman {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: relative;
+    animation: pacman-move 5s linear infinite;
+    clip-path: polygon(50% 50%, 100% 0%, 100% 100%);
+  }
+  
+  @keyframes pacman-move {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(350px);
+    }
+  }
+  
+  .letters {
+    display: flex;
+    font-size: 40px;
+    color: white;
+  }
+  
+  .letters span {
+    margin-right: 20px;
+    animation: disappear 5s linear forwards;
+  }
+  
+  @keyframes disappear {
+    0% {
+      opacity: 1;
+    }
+    15%, 100% {
+      opacity: 0;
+    }
+  }
+  
+  .letters span:nth-child(1) {
+    animation-delay: 0.5s;
+  }
+  
+  .letters span:nth-child(2) {
+    animation-delay: 1s;
+  }
+  
+  .letters span:nth-child(3) {
+    animation-delay: 1.5s;
+  }
+  
+  .letters span:nth-child(4) {
+    animation-delay: 2s;
+  }
+  
+  .letters span:nth-child(5) {
+    animation-delay: 2.5s;
+  }
+  
+  .letters span:nth-child(6) {
+    animation-delay: 3s;
+  }
+  

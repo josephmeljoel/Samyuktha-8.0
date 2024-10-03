@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Press_Start_2P } from "next/font/google";
 import "./globals.css";
 import StarsCanvas from "./components/main/StarBackground";
+import "./index.css"
 
 const pressStart = Press_Start_2P({
   subsets: ['latin'],
@@ -21,7 +22,7 @@ export default function RootLayout({
   return  (
     <html lang="en">
       <body
-        className={`${pressStart.className} bg-[#030014] overflow-y-scroll overflow-x-hidden`}
+        className={`bg-[#030014] overflow-y-scroll overflow-x-hidden`}
       >
         <StarsCanvas/>
         
