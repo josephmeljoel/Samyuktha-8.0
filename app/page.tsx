@@ -1,6 +1,7 @@
 import Navbar from "./components/main/Navbar";
 import Footer from "./components/main/Foot";
 import Events from "./components/main/Events";
+import Pacman from "./components/main/pacman";
 
 export default function Home() {
   return (
@@ -19,6 +20,9 @@ export default function Home() {
           <iframe src="/countdown.html"
           className="  scrolling=no  frameborder=0 title=Countdown allowtransparency=true w-full md:h-full h-[150px] visibility: visible;"></iframe>
 </div>
+
+<Pacman/>
+
 
       <div className="w-full flex flex-col items-center justify-center mt-[300px]">
          <p className="text-green-400 md:text-[30px] pb-[20px] text-[20px]">About</p>
