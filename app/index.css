@@ -7,4 +7,10 @@
 
 .main-heading {
   font-family: "Sega", sans-serif;
+  color: white;
+}
+
+.smyk-654{
+  /* background-color: white; */
+  transform: scale(1.4);
 }
