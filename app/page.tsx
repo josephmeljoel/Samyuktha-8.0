@@ -7,11 +7,12 @@ import "./index.css"
 export default function Home() {
   return (
     <main className="flex flex-col w-full h-full md:w-full md:h-full items-center justify-between">
+      
       <Navbar />  
 
 
-
-      <div className=" grid w-full px-[30px] py-[30px] h-full mt-[40px] rounded-[20px] p-24 md:gap-[80px] gap-[40px] md:top-[150px] md:left-[270px] md:pt-[80px] pt-[40px] md:pr-[80px] pr-[16px] md:pb-[24px] pb-[16px] md:pl-[80px] pl-[16px]">
+      <div className=" grid w-full px-[30px] py-[30px] h-full mt-[40px] rounded-[20px] md:gap-[80px] gap-[40px] md:top-[150px] md:left-[270px] md:pt-[80px] pt-[40px] md:pr-[80px] pr-[16px] md:pb-[24px] pb-[16px] md:pl-[80px] pl-[16px]">
+      
         <div className="flex justify-center smyk-654 ">
           <video className="w-[1000px] h-[500px]" autoPlay loop muted playsInline src="/bitrat.mp4"></video>
         </div>
@@ -24,7 +25,7 @@ export default function Home() {
 
         <div className="w-full h-[300px]">
           <iframe src="/countdown.html"
-            className="  scrolling=no  frameborder=0 title=Countdown allowtransparency=true w-full md:h-full h-[150px] visibility: visible;"></iframe>
+            className="  scrolling=no  frameborder=0 title=Countdown allowtransparency=true w-full md:h-[200px] lg:h-[400px] h-[150px] visibility: visible;"></iframe>
         </div>
 
 
