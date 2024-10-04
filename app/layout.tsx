@@ -24,7 +24,7 @@ export default function RootLayout({
       <body
         className={`bg-[black] overflow-y-scroll overflow-x-hidden`}
       >
-        <StarsCanvas/>
+        {/* <StarsCanvas/> */}
         
         {children}
         

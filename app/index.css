@@ -5,6 +5,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "BlueSpirits";
+  src: url("fonts/Blue Spirits.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .main-heading {
   font-family: "Sega", sans-serif;
   color: white;
@@ -14,7 +21,7 @@
   background-color: cadetblue;
 }
 
-.smyk-654{
+.smyk-654 {
   /* background-color: white; */
   transform: scale(1.4);
 }
