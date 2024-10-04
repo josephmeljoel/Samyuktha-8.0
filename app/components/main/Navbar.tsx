@@ -26,7 +26,7 @@ const Navbar = () => {
             className="md:w-[50px] md:h-[50px] w-[35px] h-[35px] cursor-pointer rounded-[10px]"
           />
           <a
-            href="#Contact"
+            href="/events"
             className="cursor-pointer md:text-[15px] lg:text-[25px] font-[sega] font-[400] text-[10px]"
           >
             Events

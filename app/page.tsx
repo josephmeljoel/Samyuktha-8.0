@@ -7,12 +7,12 @@ import "./index.css"
 export default function Home() {
   return (
     <main className="flex flex-col w-full h-full md:w-full md:h-full items-center justify-between">
-      
-      <Navbar />  
+
+      <Navbar />
 
 
       <div className=" grid w-full px-[30px] py-[30px] h-full mt-[40px] rounded-[20px] md:gap-[80px] gap-[40px] md:top-[150px] md:left-[270px] md:pt-[80px] pt-[40px] md:pr-[80px] pr-[16px] md:pb-[24px] pb-[16px] md:pl-[80px] pl-[16px]">
-      
+
         <div className="flex justify-center smyk-654 ">
           <video className="w-[1000px] h-[500px]" autoPlay loop muted playsInline src="/bitrat.mp4"></video>
         </div>
@@ -21,7 +21,6 @@ export default function Home() {
           {/* <p className="text-[40px] md:text-[65px] lg:text-[85px] text-[#ff9933] main-heading">8.0</p>
           <div className="main-heading">8.0</div> */}
         </div>
-
 
         <div className="w-full h-[300px]">
           <iframe src="/countdown.html"
@@ -52,8 +51,6 @@ export default function Home() {
         <div className="flex flex-row justify-center">
           <Pacman />
         </div>
-
-
         <Events />
       </div>
       <Footer />
