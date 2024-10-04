@@ -18,7 +18,7 @@ export default function Navbar2() {
                 {/* Left Side Nav Links */}
                 <div className="hidden md:flex space-x-12">
                     <p className='text-[20px] font-[300] text-[white] font-[Sega]'>Home</p>
-                    <a href="" className='text-[20px] font-[300] text-[white] font-[Sega]'>Events</a>
+                    <a href="/events" className='text-[20px] font-[300] text-[white] font-[Sega]'>Events</a>
                 </div>
 
                 {/* Logo in the Center */}
