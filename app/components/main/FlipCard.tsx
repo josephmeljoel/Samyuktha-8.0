@@ -21,7 +21,7 @@ export default function FlipCard() {
                         </div>
                     </div>
                     <div className="front">
-                        <button className='register-button'>Register</button>
+                        <button className="register-button">Register</button>
                         {/* <div className="img">
                             <div className="circle">
                             </div>
