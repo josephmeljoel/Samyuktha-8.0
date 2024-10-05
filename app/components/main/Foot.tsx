@@ -22,7 +22,7 @@ const Footer = () => {
     <div className="font-[Comfortaa] md:text-[20px] text-[18px] md:mt-[10px] mt-[5px] text-white">
       <p>Kottayam, Pin – 686532, Kerala</p>
     </div>
-    <div className="font-[Comfortaa] md:text-[20px] text-[18px] md:mt-[10px] mt-[5px] text-[#3333ff]">
+    <div className="font-[Comfortaa] md:text-[20px] text-[18px] md:mt-[10px] mt-[5px] text-[#3333ff] hover:text-white ">
       <p>Direction</p>
     </div>
   </div>

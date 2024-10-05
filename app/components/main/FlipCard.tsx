@@ -4,7 +4,7 @@ import "./styles/FlipCard.css"
 export default function FlipCard() {
     return (
         <>
-            <div className="card">
+            <div className="card z-50">
                 <div className="content">
                     <div className="back">
                         <div className="back-content">

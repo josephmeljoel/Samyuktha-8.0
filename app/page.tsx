@@ -1,6 +1,5 @@
 import Navbar from "./components/main/Navbar";
 import Footer from "./components/main/Foot";
-
 import Pacman from "./components/main/pacman";
 import "./index.css"
 import Navbar2 from "./components/main/Navbar2";
