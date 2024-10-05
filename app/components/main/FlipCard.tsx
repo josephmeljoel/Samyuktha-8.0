@@ -1,23 +1,20 @@
 import React from 'react'
 import "./styles/FlipCard.css"
 
-export default function FlipCard() {
+interface FlipCardProps {
+    data: {
+        url: string;
+    };
+}
+
+const FlipCard: React.FC<FlipCardProps> = ({ data }) => {
     return (
         <>
             <div className="card z-50">
                 <div className="content">
                     <div className="back">
                         <div className="back-content">
-                            <svg stroke="#ffffff">
-
-                                <g strokeWidth="0" id="SVGRepo_bgCarrier"></g>
-
-                                <g strokeLinejoin="round" strokeLinecap="round" id="SVGRepo_tracerCarrier"></g>
-
-
-
-                            </svg>
-                            <strong>Hover Me</strong>
+                            <img src={data.url} className='h-full w-full' alt="" />
                         </div>
                     </div>
                     <div className="front">
@@ -38,3 +35,5 @@ export default function FlipCard() {
         </>
     )
 }
+
+export default FlipCard

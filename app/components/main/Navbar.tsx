@@ -36,7 +36,7 @@ export default function Navbar() {
                 {/* Toggle Button for Mobile */}
                 <button
                     onClick={toggleMenu}
-                    className="md:hidden text-white focus:outline-none p-4"
+                    className="md:hidden text-white focus:outline-none p-4 z-50"
                 >
                     <Menu color="#fff" size={40} />
                 </button>
@@ -44,21 +44,21 @@ export default function Navbar() {
 
             {/* Mobile Menu */}
             <div
-                className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out m-0 ${isOpen ? 'max-h-56' : 'max-h-0'}`}
+                className={` z-50 md:hidden overflow-hidden transition-all duration-300 ease-in-out m-0 ${isOpen ? 'max-h-56' : 'max-h-0'}`}
 
             >
 
-                <div className="flex flex-col items-center space-y-4 mt-4">
+                <div className="flex flex-col items-center space-y-4 mt-4 z-50">
 
-                    <p className="text-white text-[18px] text-white">Home</p>
+                    <a href='/' className="text-white text-[18px] text-white z-50">Home</a>
                     <hr className="border-t-2 border-[black] w-full my-2" />
-                    <p className="text-white text-[18px] text-white font-[400]">Events</p>
-                    <hr className="border-t-2 border-[black] w-full my-2" />
-
-                    <p className="text-white text-[18px] text-white font-[400]">About Us</p>
+                    <a href='/events' className="text-white text-[18px] text-white font-[400] z-50">Events</a>
                     <hr className="border-t-2 border-[black] w-full my-2" />
 
-                    <p className="text-white text-[18px] text-white font-[400]">Contact Us</p>
+                    <a href='/timeline' className="text-white text-[18px] text-white font-[400] z-50">Shedule</a>
+                    <hr className="border-t-2 border-[black] w-full my-2" />
+
+                    <a href='/' className="text-white text-[18px] text-white font-[400] z-50">Contact Us</a>
                     <hr className="border-t-2 border-[black] w-full my-2" />
 
 
