@@ -6,7 +6,7 @@ import "./index.css"
 
 export default function Home() {
   return (
-    <main className="flex flex-col w-full h-full md:w-full md:h-full">
+    <main className="flex flex-col w-full h-full md:w-full md:h-full z-50">
 
       <Navbar />
 
