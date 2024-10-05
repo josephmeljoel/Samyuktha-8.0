@@ -2,8 +2,8 @@ import React from 'react'
 import "./index.css"
 import FlipCard from '../components/main/FlipCard'
 
-import Navbar2 from '../components/main/Navbar2'
-import Navbar from '../components/main/Navbar2'
+
+import Navbar from '../components/main/Navbar'
 export default function events() {
 
   var events = [
@@ -12,7 +12,7 @@ export default function events() {
   return (
 
     <>
-      <Navbar2 />
+      <Navbar />
       <div className='container max-w-md sm:max-w-lg lg:max-w-4xl mx-auto mb-5'>
         {/* <Navbar /> */}
 

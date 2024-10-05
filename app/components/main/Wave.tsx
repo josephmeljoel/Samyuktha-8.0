@@ -1,6 +1,6 @@
 import React from 'react'
 import "./styles/wave.css"
-import Navbar2 from './Navbar2'
+import Navbar2 from './Navbar'
 
 export default function Wave() {
     return (

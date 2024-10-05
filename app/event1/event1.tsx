@@ -1,4 +1,4 @@
-import Navbar2 from "../components/main/Navbar2";
+import Navbar2 from "../components/main/Navbar";
 
 
 export default function event1() {
