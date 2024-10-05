@@ -13,7 +13,7 @@ export default function Navbar() {
 
     return (
         // <nav className="bg-[#7E60BF] p-4">
-        <nav className="z-50">
+        <nav className="">
             <div className="mx-auto flex md:w-1/2 justify-center md:justify-between items-center">
                 {/* Left Side Nav Links */}
                 <div className="hidden md:flex space-x-12">
@@ -24,13 +24,13 @@ export default function Navbar() {
                 {/* Logo in the Center */}
                 <div className="text-white text-xl font-bold flex-grow md:flex-grow-0 m-0 md:text-center">
                     {/* <p className='text-black'>Logo</p> */}
-                    <img src="/logo-textured.png" className='md:w-[250px] w-[150px] md:mt-0 mt-2' alt=""/>
+                    <img src="/logo-textured.png" className='md:w-[250px] w-[150px] md:mt-0 mt-2' alt="" />
                 </div>
 
                 {/* Right Side Nav Links */}
-                <div className="hidden md:flex space-x-12">
-                    <p className='text-[20px] font-[300] text-[white] font-[Sega]' >About Us</p>
-                    <p className='text-[20px] font-[300] text-[white] font-[Sega]'>Contact</p>
+                <div className="hidden md:flex space-x-12 z-50">
+                    <a className='text-[20px] font-[300] text-[white] font-[Sega]' href='/timeline'>Shedule</a>
+                    <a className='text-[20px] font-[300] text-[white] font-[Sega]' href='/timeline'>Contact</a>
                 </div>
 
                 {/* Toggle Button for Mobile */}
