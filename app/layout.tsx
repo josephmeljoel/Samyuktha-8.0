@@ -22,7 +22,7 @@ export default function RootLayout({
   return  (
     <html lang="en">
       <body
-        className={`bg-[black] overflow-y-scroll overflow-x-hidden`}
+        className={`bg-[#030014] overflow-y-scroll overflow-x-hidden`}
       >
         <StarsCanvas/> 
         
