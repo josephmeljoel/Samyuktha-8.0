@@ -5,11 +5,11 @@ function Footer() {
     return (
         <>
             <div className='bg-[#373A40] mt-[100px] pt-1 pb-1'>
-            <div className='container max-w-md sm:max-w-lg lg:max-w-4xl mx-auto h-[430px]'>
-                <div className="grid grid-cols-2 gap-4">
+            <div className='container max-w-md sm:max-w-lg lg:max-w-4xl mx-auto justify-center h-full md:h-[430px]'>
+                <div className="grid md:flex md:gap-8 gap-0 justify-center">
                     <div className="p-4">
                         <div className='footer-logo d-flex justify-center items-center'>
-                            <img src="/logo-textured.png" alt="" width={300} />
+                            <img className='md:w-[300px] ml-5 md:ml-0 w-[200px]' src="/logo-textured.png" alt="" />
                         </div>
                     </div>
                     <div className="flex justify-center items-center p-4">

@@ -18,7 +18,7 @@ const FlipCard: React.FC<FlipCardProps> = ({ data }) => {
                         </div>
                     </div>
                     <div className="front">
-                        <button className="register-button">Register</button>
+                        <a className="register-button text-center" href='/events/desc'>Register</a>
                         {/* <div className="img">
                             <div className="circle">
                             </div>

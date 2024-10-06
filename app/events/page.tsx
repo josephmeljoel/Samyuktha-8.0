@@ -5,12 +5,12 @@ import Navbar from '../components/main/Navbar';
 
 export default function Events() {
   const events = [
-    { url: '/event1.jpg' },
-    { url: '/event2.jpg' },
-    { url: '/event3.jpg' },
-    { url: '/event4.jpg' },
-    { url: '/event5.jpg' },
-    { url: '/event6.jpg' },
+    { url: '/event1.jpg' },{ url: '/event2.jpg' },{ url: '/event3.jpg' },
+    { url: '/event4.jpg' },{ url: '/event5.jpg' }, { url: '/event6.jpg' },
+     { url: '/event6.jpg' },{ url: '/event6.jpg' },{ url: '/event6.jpg' },
+    { url: '/event6.jpg' }, { url: '/event6.jpg' },{ url: '/event6.jpg' },
+    { url: '/event6.jpg' },{ url: '/event6.jpg' }, { url: '/event6.jpg' },
+
   ];
 
   return (

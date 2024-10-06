@@ -23,7 +23,7 @@ export default function Home() {
 
         <div className="w-full h-[300px]">
           <iframe src="/countdown.html"
-            className="  scrolling=no  frameborder=0 title=Countdown allowtransparency=true w-full md:h-[200px] lg:h-[400px] h-[150px] visibility: visible;"></iframe>
+            className="  scrolling=no  frameborder=0 title=Countdown allowtransparency=true w-full md:h-[200px] lg:h-[400px] xl-[600px] h-[150px] visibility: visible;"></iframe>
         </div>
 
 
@@ -38,9 +38,9 @@ export default function Home() {
           </div>
           <div className="w-full md:w-1/2 h-full md:mt-[120px] mt-0">
             <p className="text-green-400 text-[Sega] md:text-[30px] pb-[20px] text-center text-[20px] ">About</p>
-            <p className="text-center text-[grey] md:text-[20px] text-[15px] font-[Inter] pb-5 pt-5">
-              SAINTGITS College of Engineering organizes ‘Samyuktha 6.0’, a national level techno cultural fest, on
-              March 24th. ‘Samyuktha’ has been successfully organized for the past five years and serves as an ideal
+            <p className="text-left text-[grey] md:text-[20px] text-[15px] font-[Inter] pb-5 pt-5">
+              SAINTGITS College of Engineering organizes ‘Samyuktha 8.0’, a national level techno cultural fest, on
+              October 19th. ‘Samyuktha’ has been successfully organized for the past five years and serves as an ideal
               platform for talented undergraduate and postgraduate computer application students to showcase their
               technical and artistic skills.
               In this fest, students will compete for more than 10 events like Best Singer, Spot Photography, Coding,
