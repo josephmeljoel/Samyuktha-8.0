@@ -1,13 +1,13 @@
 @font-face {
   font-family: "Sega";
-  src: url("fonts/SEGA.TTF") format("truetype");
+  src: url("./assets/fonts/SEGA.TTF") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "BlueSpirits";
-  src: url("fonts/Blue Spirits.otf") format("truetype");
+  src: url("./assets/fonts/Blue Spirits.otf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }

@@ -1,6 +1,5 @@
 "use client";
 import React, { useState } from 'react';
-import Link from 'next/link';
 import { Menu } from 'lucide-react';
 import "./styles/Navbar.css"
 
@@ -18,7 +17,7 @@ export default function Navbar() {
                 {/* Left Side Nav Links */}
                 <div className="hidden md:flex space-x-12">
                     <a href='/' className='text-[20px] font-[300] text-[white] z-50 font-[Sega]'>Home</a>
-                    <a href="/events" className='text-[20px] font-[300] text-[white] z-50 font-[Sega]'>Events</a>
+                    <a href="/pages/events" className='text-[20px] font-[300] text-[white] z-50 font-[Sega]'>Events</a>
                 </div>
 
                 {/* Logo in the Center */}
@@ -29,8 +28,8 @@ export default function Navbar() {
 
                 {/* Right Side Nav Links */}
                 <div className="hidden md:flex space-x-12 z-50">
-                    <a className='text-[20px] font-[300] text-[white] font-[Sega]' href='/timeline'>Shedule</a>
-                    <a className='text-[20px] font-[300] text-[white] font-[Sega]' href='/timeline'>Contact</a>
+                    <a className='text-[20px] font-[300] text-[white] font-[Sega]' href='/pages/timeline'>Shedule</a>
+                    <a className='text-[20px] font-[300] text-[white] font-[Sega]' href='/pages/timeline'>Contact</a>
                 </div>
 
                 {/* Toggle Button for Mobile */}
@@ -52,10 +51,10 @@ export default function Navbar() {
 
                     <a href='/' className="text-white text-[18px] text-white z-50">Home</a>
                     <hr className="border-t-2 border-[black] w-full my-2" />
-                    <a href='/events' className="text-white text-[18px] text-white font-[400] z-50">Events</a>
+                    <a href='/pages/events' className="text-white text-[18px] text-white font-[400] z-50">Events</a>
                     <hr className="border-t-2 border-[black] w-full my-2" />
 
-                    <a href='/timeline' className="text-white text-[18px] text-white font-[400] z-50">Shedule</a>
+                    <a href='/pages/timeline' className="text-white text-[18px] text-white font-[400] z-50">Shedule</a>
                     <hr className="border-t-2 border-[black] w-full my-2" />
 
                     <a href='/' className="text-white text-[18px] text-white font-[400] z-50">Contact Us</a>

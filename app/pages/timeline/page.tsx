@@ -1,6 +1,7 @@
+'use client';
 import React from 'react'
 import "./index.css"
-import Navbar from '../components/main/Navbar'
+import Navbar from '../../components/main/Navbar'
 
 
 

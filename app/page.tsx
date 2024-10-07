@@ -1,6 +1,6 @@
+'use-strict'
 import Navbar from "./components/main/Navbar";
 import Footer from "./components/main/Footer";
-import Pacman from "./components/main/pacman";
 import "./index.css"
 
 

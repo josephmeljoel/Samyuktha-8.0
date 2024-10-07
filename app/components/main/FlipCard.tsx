@@ -4,6 +4,7 @@ import "./styles/FlipCard.css"
 interface FlipCardProps {
     data: {
         url: string;
+        id: number
     };
 }
 
@@ -18,7 +19,7 @@ const FlipCard: React.FC<FlipCardProps> = ({ data }) => {
                         </div>
                     </div>
                     <div className="front">
-                        <a className="register-button text-center" href='/events/desc'>Register</a>
+                        <a className="register-button text-center" href={`/pages/events/desc?eventId=${data.id}`}>Register</a>
                         {/* <div className="img">
                             <div className="circle">
                             </div>
