@@ -5,7 +5,7 @@ import Navbar from "@/app/components/main/Navbar";
 import { useSearchParams } from "next/navigation";
 
 // Import Data
-import { EventData } from "@/app/assets/data/events";
+import { EventData, } from "@/app/assets/data/events";
 
 import { signInWithGoogle } from "@/app/services/auth";
 
