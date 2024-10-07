@@ -2,7 +2,7 @@ var EventData = [
   {
     id: 12,
     url: "/event1.jpg",
-    event_name: "Treasure Hunt",
+    event_name: "Disco Frenzy",
     registeration_fee: 100,
     event_type_1: "Cultural",
     event_type_2: "Single",
@@ -16,21 +16,21 @@ var EventData = [
   {
     id: 17,
     url: "/event2.jpg",
-    event_name: "Photography",
-    registeration_fee: 100,
+    event_name: "Flashback Frames",
+    registeration_fee: 50,
     event_type_1: "Cultural",
     event_type_2: "Single",
-    head_name_1: "Akshay Kumar",
-    head_phonenumber_1: "9876543212",
-    head_name_2: "Anjana Sanjeev",
-    head_phonenumber_2: "9876543212",
+    head_name_1: "Albin v Johnson",
+    head_phonenumber_1: "9496161839",
+    head_name_2: "A",
+    head_phonenumber_2: "8139090192",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quibusdam asperiores sunt vero, commodi doloribus omnis ullam autem. Maiores, perferendis quod ab totam ea dignissimos nobis quibusdam est beatae officia.",
   },
   {
     id: 12,
     url: "/event3.jpg",
-    event_name: "Star of Samyuktha",
+    event_name: "Zeus Odyssey",
     registeration_fee: 100,
     event_type_1: "Cultural",
     event_type_2: "Single",
@@ -44,7 +44,7 @@ var EventData = [
   {
     id: 13,
     url: "/event4.jpg",
-    event_name: "Best Singer",
+    event_name: "Neon Nexus",
     registeration_fee: 100,
     event_type_1: "Cultural",
     event_type_2: "Single",
@@ -58,7 +58,7 @@ var EventData = [
   {
     id: 18,
     url: "/event5.jpg",
-    event_name: "Coding",
+    event_name: "Rampage Rush",
     registeration_fee: 100,
     event_type_1: "Cultural",
     event_type_2: "Single",
@@ -72,7 +72,7 @@ var EventData = [
   {
     id: 12,
     url: "/event6.jpg",
-    event_name: "Spot Dance",
+    event_name: "Yenme Echoes",
     registeration_fee: 100,
     event_type_1: "Cultural",
     event_type_2: "Single",
@@ -86,7 +86,7 @@ var EventData = [
   {
     id: 14,
     url: "/event6.jpg",
-    event_name: "Treasure Hunt",
+    event_name: "Binary brain busters",
     registeration_fee: 100,
     event_type_1: "Cultural",
     event_type_2: "Single",
@@ -100,7 +100,7 @@ var EventData = [
   {
     id: 19,
     url: "/event6.jpg",
-    event_name: "Treasure Hunt",
+    event_name: "Classic conclave",
     registeration_fee: 100,
     event_type_1: "Cultural",
     event_type_2: "Single",
@@ -114,7 +114,7 @@ var EventData = [
   {
     id: 12,
     url: "/event6.jpg",
-    event_name: "Treasure Hunt",
+    event_name: "old school kickoff",
     registeration_fee: 100,
     event_type_1: "Cultural",
     event_type_2: "Single",
@@ -128,21 +128,21 @@ var EventData = [
   {
     id: 15,
     url: "/event6.jpg",
-    event_name: "Treasure Hunt",
+    event_name: "polaroid perspective",
     registeration_fee: 100,
     event_type_1: "Cultural",
     event_type_2: "Single",
-    head_name_1: "Akshay Kumar",
-    head_phonenumber_1: "9876543212",
-    head_name_2: "Anjana Sanjeev",
-    head_phonenumber_2: "9876543212",
+    head_name_1: "Ashwin Baburaj",
+    head_phonenumber_1: "8129294508",
+    head_name_2: "Amruth k siby",
+    head_phonenumber_2: "9400164748",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quibusdam asperiores sunt vero, commodi doloribus omnis ullam autem. Maiores, perferendis quod ab totam ea dignissimos nobis quibusdam est beatae officia.",
+      "Join us for an enchanting journey through your lens at the POLAROID PERSPECTIVE photography event. Unleash your creativity with mobile cameras, DSLRs, SLRs, or digital cameras to capture the eerie and mystical. Remember, in this competition, editing and filtering is not permitted.",
   },
   {
     id: 20,
     url: "/event6.jpg",
-    event_name: "Ideathon",
+    event_name: "binary arcade",
     registeration_fee: 100,
     event_type_1: "Cultural",
     event_type_2: "Single",
@@ -156,7 +156,7 @@ var EventData = [
   {
     id: 12,
     url: "/event6.jpg",
-    event_name: "Football 3 * 3",
+    event_name: "back to the browser",
     registeration_fee: 100,
     event_type_1: "Cultural",
     event_type_2: "Single",
@@ -170,7 +170,7 @@ var EventData = [
   {
     id: 16,
     url: "/event6.jpg",
-    event_name: "Fast Typing",
+    event_name: "secret expedition",
     registeration_fee: 100,
     event_type_1: "Cultural",
     event_type_2: "Single",
@@ -184,7 +184,7 @@ var EventData = [
   {
     id: 21,
     url: "/event6.jpg",
-    event_name: "Best Singer",
+    event_name: "nova-lux of solaris",
     registeration_fee: 100,
     event_type_1: "Cultural",
     event_type_2: "Single",
@@ -195,20 +195,7 @@ var EventData = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quibusdam asperiores sunt vero, commodi doloribus omnis ullam autem. Maiores, perferendis quod ab totam ea dignissimos nobis quibusdam est beatae officia.",
   },
-  {
-    id: 12,
-    url: "/event6.jpg",
-    event_name: "Web Desiging",
-    registeration_fee: 100,
-    event_type_1: "Cultural",
-    event_type_2: "Single",
-    head_name_1: "Akshay Kumar",
-    head_phonenumber_1: "9876543212",
-    head_name_2: "Anjana Sanjeev",
-    head_phonenumber_2: "9876543212",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quibusdam asperiores sunt vero, commodi doloribus omnis ullam autem. Maiores, perferendis quod ab totam ea dignissimos nobis quibusdam est beatae officia.",
-  },
+
 ];
 
 export default EventData;
