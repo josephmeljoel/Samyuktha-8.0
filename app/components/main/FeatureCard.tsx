@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import "./styles/FlipCard.css";
+import "./styles/FeatureCard.css";
 
 interface FlipCardProps {
   data: {
