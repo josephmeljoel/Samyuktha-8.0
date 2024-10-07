@@ -1,3 +1,4 @@
+'use client';
 var EventData = [
   {
     id: 12,

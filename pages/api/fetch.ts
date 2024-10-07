@@ -19,20 +19,23 @@ export default async function handler(
         AIRTABLE_BASE_ID
       );
 
-      const record = await base(AIRTABLE_TABLE_NAME).create([
-        {
-          fields: {
-            Name: name,
-            Event: event,
-            College: college,
-            Department: department,
-            Phonenumber: phonenumber,
-          },
-        },
-      ]);
+      var fieldName = "Name";
+      var value = req.body.value;
+
+      const record = await base(AIRTABLE_TABLE_NAME)
+        .select({
+          filterByFormula: `{${fieldName}} = '${value}'`, // Constructing the filter formula
+        })
+        .all();
+
+      // const record = await await base(AIRTABLE_TABLE_NAME).select().all(); // Use .all() to fetch all records
 
       // Return success response
-      res.status(200).json({ success: true, record });
+      const fetch_records = record.map((record) => ({
+        id: record.id,
+        fields: record.fields,
+      }));
+      res.status(200).json({ success: true, fetch_records });
     } catch (error) {
       console.error("Error creating record in Airtable:", error);
       res.status(500).json({ success: false, error: error });
