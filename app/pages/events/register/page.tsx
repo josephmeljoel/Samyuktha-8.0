@@ -1,79 +1,38 @@
-'use client'; // Ensure this is a Client Component
-
-import React, { useState } from 'react'
-import Footer from '@/app/components/main/Footer'
-import Navbar from '@/app/components/main/Navbar'
-
+import React from 'react'
 
 export default function page() {
-    const [formData, setFormData] = useState({
-        name: 'sdds',
-        event: 'Treasure Hunt',
-        college: 'Kristu Jyothi College',
-        department: 'wefwf',
-        phonenumber: '9016268071',
-    });
+  return (
+    <div className='flex w-full h-full pt-40 justify-center  items-center'>
+        <div className='grid gap-[20px] w-2/4 h-auto border bg-[#0e0622] rounded-[20px] border-white'>
+       
+       <div className='grid justify-center gap-[20px] mt-[20px] pb-[20px]'>
+        <div className='flex gap-[20px]'>
+           <p className='text-[30px]'>Name&nbsp;&nbsp;&nbsp;&nbsp;:</p>
+           <input type="text" placeholder='Enter Your Name' className='w-[300px] text-black border border-white rounded-md focus:outline-none focus:ring-2 focus:ring-red-500 z-50'/>
+           </div>
 
-    const [loading, setLoading] = useState(false);
-    const [success, setSuccess] = useState(false);
-    const [error, setError] = useState('');
+           <div className='flex gap-[20px]'>
+           <p className='text-[30px]'>Name&nbsp;&nbsp;&nbsp;&nbsp;:</p>
+           <input type="text" placeholder='Enter Your Name' className='w-[500px] text-black border border-white rounded-md focus:outline-none focus:ring-2 focus:ring-red-500 z-50'/>
+           </div>
 
-    // const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    //     const { name, value } = e.target;
-    //     setFormData((prevData) => ({
-    //         ...prevData,
-    //         [name]: value,
-    //     }));
-    // };
+           <div className='flex gap-[20px]'>
+           <p className='text-[30px]'>Name&nbsp;&nbsp;&nbsp;&nbsp;:</p>
+           <input type="text" placeholder='Enter Your Name' className='w-[500px] text-black border border-white rounded-md focus:outline-none focus:ring-2 focus:ring-red-500 z-50'/>
+           </div>
 
-    const handleSubmit = async () => {
-        console.log("wef")
-        setLoading(true);
-        setError('');
-        setSuccess(false);
+           <div className='flex gap-[20px]'>
+           <p className='text-[30px]'>Name&nbsp;&nbsp;&nbsp;&nbsp;:</p>
+           <input type="text" placeholder='Enter Your Name' className='w-[500px] text-black border border-white rounded-md focus:outline-none focus:ring-2 focus:ring-red-500 z-50'/>
+           </div>
+           </div>
 
-        try {
-            console.log(formData)
-            // Send the data to an API route or external service
-            const response = await fetch('/api/register', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(formData),
-            });
-
-            const result = await response.json();
-            console.log(result)
-
-            // if (result.success) {
-            //     setSuccess(true);
-            //     setFormData({
-                    // name: '',
-                    // event: '',
-                    // college: '',
-                    // department: '',
-                    // phonenumber: '',
-            //     });
-            // } else {
-            //     setError('Error submitting form');
-            // }
-        } catch (error) {
-            console.error('Error submitting form:', error);
-            setError('Submission failed. Try again later.');
-        } finally {
-            setLoading(false);
-        }
-    };
-    return (
-        <>
-            <Navbar />
-            <div className="text-center text-[80px]"><button className="z-50" onClick={() => handleSubmit()}>
-                Button
-            </button></div>
-
-
-            <Footer />
-        </>
-    )
+          
+<div className='flex justify-center pb-[20px]'>
+<button className='w-[150px] items-center h-[50px] border rounded-[30px] text-[20px] font-[300] hover:bg-red-500 border-red-500 z-50'>SUBMIT</button>
+</div>
+        </div>
+    </div>
+  )
 }
+
