@@ -1,10 +1,10 @@
-'use client';
+"use client";
 
 import React from "react";
 import "./index.css";
 import FlipCard from "@/app/components/main/FlipCard";
 import Navbar from "@/app/components/main/Navbar";
-import EventData from "@/app/assets/data/events";
+import { EventData } from "@/app/assets/data/events";
 
 export default function Events() {
   return (

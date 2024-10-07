@@ -334,4 +334,31 @@ var EventData = [
   },
 ];
 
-export default EventData;
+const FeaturedEvents = [
+  {
+    id: 21,
+    url: "/event6.jpg",
+    event_name: "noval ux of solaris",
+    event_alternative_name: "STAR OF SAMYUKTHA",
+  },
+  {
+    id: 16,
+    url: "/event6.jpg",
+    event_name: "secret expedition",
+    event_alternative_name: "TREASURE HUNT",
+  },
+  {
+    id: 15,
+    url: "/event6.jpg",
+    event_name: "polaroid perspective",
+    event_alternative_name: "PHOTOGRAPHY",
+  },
+  {
+    id: 12,
+    url: "/event6.jpg",
+    event_name: "Yenme Echoes",
+    event_alternative_name: "BEST SINGER",
+  },
+];
+
+export { FeaturedEvents, EventData };
