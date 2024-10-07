@@ -6,11 +6,22 @@ import { useSearchParams } from "next/navigation";
 
 // Import Data
 import EventData from "@/app/assets/data/events";
+import { signInWithGoogle } from "@/app/services/auth";
+
+
+// State Manage
+import { useDispatch } from 'react-redux';
+import { setAuthState } from "@/app/context/store/authSlice";
 
 export default function page() {
   var searchParams = useSearchParams();
   const eventId = searchParams?.get("eventId") || 0;
   console.log("eventid", eventId);
+
+  // State
+  
+
+
 
   const event = EventData.find((item) => item.id == eventId);
   console.log(event);
@@ -53,9 +64,17 @@ export default function page() {
                 Registration Fee: {event?.registeration_fee}.
               </p>
 
-              <button className="w-[150px] h-[40px] border border-red-500 rounded-[20px] mb-[20px] z-50 hover:bg-red-500">
-                <p className="test-[10px] font-[600]">Register</p>
-              </button>
+              
+                <button className="w-[150px] h-[40px] border border-red-500 rounded-[20px] mb-[20px] z-50 hover:bg-red-500">
+                  <p className="test-[10px] font-[600]">Register</p>
+                </button>
+              
+                <button className="w-[150px] h-[40px] border border-red-500 rounded-[20px] mb-[20px] z-50 hover:bg-red-500">
+                  <p className="test-[10px] font-[600]" onClick={() => signInWithGoogle()}>Sign In</p>
+                </button>
+              
+
+
             </div>
           </div>
         </div>
