@@ -1,13 +1,24 @@
+"use client";
 import { configureStore } from "@reduxjs/toolkit";
-import { createWrapper } from "next-redux-wrapper";
 
-import { useDispatch, TypedUseSelectorHook, useSelector } from "react-redux";
-import { authReducer } from "./authSlice";
+import { authReducer, restoreSession } from "./authSlice";
 
-export const store = configureStore({
+export const Store = configureStore({
   reducer: { auth: authReducer },
-
 });
 
+const accessToken = localStorage.getItem("Authorization");
+console.log("eferg", accessToken);
 
-export const wrapper = createWrapper(makeStore);
+if (accessToken) {
+  Store.dispatch(
+    restoreSession({
+      email: '',
+      authState: true,
+      accessToken: accessToken,
+      uid: localStorage.getItem("uid") || "",
+    })
+  );
+}
+
+export default Store;

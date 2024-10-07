@@ -1,4 +1,4 @@
-'use-strict'
+'use client';
 import Navbar from "./components/main/Navbar";
 import Footer from "./components/main/Footer";
 import "./index.css"

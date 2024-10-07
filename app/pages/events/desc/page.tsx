@@ -8,11 +8,10 @@ import { useSearchParams } from "next/navigation";
 import EventData from "@/app/assets/data/events";
 import { signInWithGoogle } from "@/app/services/auth";
 
-
 // State Manage
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch, useSelector } from "react-redux";
 import { IAuthState, setAuthState } from "@/app/context/store/authSlice";
-
+import checkRegisteration from "@/app/services/checkRegister";
 
 export default function page() {
   var searchParams = useSearchParams();
@@ -21,13 +20,21 @@ export default function page() {
 
   // State
   const authState = useSelector((state: { auth: IAuthState }) => state.auth);
-  console.log("current state", authState)
-
-
-
+  console.log("current state", authState);
 
   const event = EventData.find((item) => item.id == eventId);
   console.log(event);
+
+  const handleFetchData = async () => {
+    try {
+      const alreadyRegistered = await checkRegisteration("Joseph Mel Joel");
+      console.log("registered", alreadyRegistered);
+    } catch (error) {
+      console.error("Error fetching data:", error);
+    }
+  };
+
+  handleFetchData()
 
   return (
     <div className="w-full h-auto">
@@ -67,17 +74,20 @@ export default function page() {
                 Registration Fee: {event?.registeration_fee}.
               </p>
 
-
-              <button className="w-[150px] h-[40px] border border-red-500 rounded-[20px] mb-[20px] z-50 hover:bg-red-500">
-                <p className="test-[10px] font-[600]">Register</p>
-              </button>
-
-              <button className="w-[150px] h-[40px] border border-red-500 rounded-[20px] mb-[20px] z-50 hover:bg-red-500">
-                <p className="test-[10px] font-[600]" onClick={() => signInWithGoogle()}>Sign In</p>
-              </button>
-
-
-
+              {authState.authState ? (
+                <button className="w-[150px] h-[40px] border border-red-500 rounded-[20px] mb-[20px] z-50 hover:bg-red-500">
+                  <p className="test-[10px] font-[600]">Register</p>
+                </button>
+              ) : (
+                <button className="w-[150px] h-[40px] border border-red-500 rounded-[20px] mb-[20px] z-50 hover:bg-red-500">
+                  <p
+                    className="test-[10px] font-[600]"
+                    onClick={() => signInWithGoogle()}
+                  >
+                    Sign In
+                  </p>
+                </button>
+              )}
             </div>
           </div>
         </div>

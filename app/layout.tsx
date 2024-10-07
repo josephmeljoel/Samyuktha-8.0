@@ -2,11 +2,14 @@ import type { Metadata } from "next";
 import { Press_Start_2P } from "next/font/google";
 import "./globals.css";
 import StarsCanvas from "./components/main/StarBackground";
-import "./index.css"
+import "./index.css";
+import { Provider } from "react-redux";
+import { Store } from "./context/store/store";
+import Providers from "./context/provider/provider";
 
 const pressStart = Press_Start_2P({
-  subsets: ['latin'],
-  weight: '400',
+  subsets: ["latin"],
+  weight: "400",
 });
 
 export const metadata: Metadata = {
@@ -21,13 +24,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`bg-[#030014] overflow-y-scroll overflow-x-hidden`}
-      >
+      <body className={`bg-[#030014] overflow-y-scroll overflow-x-hidden`}>
         <StarsCanvas />
 
-        {children}
-
+        <Providers>{children}</Providers>
       </body>
     </html>
   );
