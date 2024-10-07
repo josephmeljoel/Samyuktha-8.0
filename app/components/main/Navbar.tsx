@@ -29,7 +29,7 @@ export default function Navbar() {
                 {/* Right Side Nav Links */}
                 <div className="hidden md:flex space-x-12 z-50">
                     <a className='text-[20px] font-[300] text-[white] font-[Sega]' href='/pages/timeline'>Shedule</a>
-                    <a className='text-[20px] font-[300] text-[white] font-[Sega]' href='/pages/timeline'>Contact</a>
+                    <a className='text-[20px] font-[300] text-[white] font-[Sega]' href='/pages/Contact'>Contact</a>
                 </div>
 
                 {/* Toggle Button for Mobile */}
@@ -57,7 +57,7 @@ export default function Navbar() {
                     <a href='/pages/timeline' className="text-white text-[18px] text-white font-[400] z-50">Shedule</a>
                     <hr className="border-t-2 border-[black] w-full my-2" />
 
-                    <a href='/' className="text-white text-[18px] text-white font-[400] z-50">Contact Us</a>
+                    <a href='/pages/Contact' className="text-white text-[18px] text-white font-[400] z-50">Contact Us</a>
                     <hr className="border-t-2 border-[black] w-full my-2" />
 
 
