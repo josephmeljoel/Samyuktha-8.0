@@ -10,8 +10,9 @@ import { signInWithGoogle } from "@/app/services/auth";
 
 
 // State Manage
-import { useDispatch } from 'react-redux';
-import { setAuthState } from "@/app/context/store/authSlice";
+import { useDispatch, useSelector } from 'react-redux';
+import { IAuthState, setAuthState } from "@/app/context/store/authSlice";
+
 
 export default function page() {
   var searchParams = useSearchParams();
@@ -19,7 +20,9 @@ export default function page() {
   console.log("eventid", eventId);
 
   // State
-  
+  const authState = useSelector((state: { auth: IAuthState }) => state.auth);
+  console.log("current state", authState)
+
 
 
 
@@ -64,15 +67,15 @@ export default function page() {
                 Registration Fee: {event?.registeration_fee}.
               </p>
 
-              
-                <button className="w-[150px] h-[40px] border border-red-500 rounded-[20px] mb-[20px] z-50 hover:bg-red-500">
-                  <p className="test-[10px] font-[600]">Register</p>
-                </button>
-              
-                <button className="w-[150px] h-[40px] border border-red-500 rounded-[20px] mb-[20px] z-50 hover:bg-red-500">
-                  <p className="test-[10px] font-[600]" onClick={() => signInWithGoogle()}>Sign In</p>
-                </button>
-              
+
+              <button className="w-[150px] h-[40px] border border-red-500 rounded-[20px] mb-[20px] z-50 hover:bg-red-500">
+                <p className="test-[10px] font-[600]">Register</p>
+              </button>
+
+              <button className="w-[150px] h-[40px] border border-red-500 rounded-[20px] mb-[20px] z-50 hover:bg-red-500">
+                <p className="test-[10px] font-[600]" onClick={() => signInWithGoogle()}>Sign In</p>
+              </button>
+
 
 
             </div>
