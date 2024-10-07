@@ -19,15 +19,15 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return  (
+  return (
     <html lang="en">
       <body
         className={`bg-[#030014] overflow-y-scroll overflow-x-hidden`}
       >
-        <StarsCanvas/> 
-        
+        <StarsCanvas />
+
         {children}
-        
+
       </body>
     </html>
   );
