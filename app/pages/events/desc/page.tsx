@@ -98,7 +98,7 @@ export default function page() {
           <p className="text-[40px] text-center text-red-500 font-[700]">
             Rules{" "}
           </p>
-          <p className="mt-[20px]">
+          {/* <p className="mt-[20px]">
             - Participants should complete the registration and report to the
             venue at 10 am.
             <br />
@@ -129,7 +129,10 @@ export default function page() {
             mail id.
             <br />
             <br />- The contest duration will be from 10.30 am to 2.00 pm.
-          </p>
+          </p> */}
+          {event?.rules?.map((item) => (
+            <p className="mt-[20px]">-  {item}</p>
+          ))}
         </div>
 
         <div className=" grid gap-[30px] h-auto md:pl-[50px] md:pr-[10px] md:w-1/3 md:mt-[0px] mt-[20px] justify-center">
