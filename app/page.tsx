@@ -31,15 +31,15 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="w-full h-[300px]">
+        <div className="w-full h-[100px]">
           <iframe
             src="/countdown.html"
             className="  scrolling=no  frameborder=0 title=Countdown allowtransparency=true w-full md:h-[200px] lg:h-[400px] xl-[600px] h-[150px] visibility: visible;"
           ></iframe>
         </div>
 
-        <div className=" md:flex w-full h-full items-center justify-center md:mt-[100px] mt-0">
-          <div className=" w-full md:w-1/2 md:mt-[20px] mt-0">
+        <div className=" md:flex w-full h-full items-center justify-center md:mt-[200px] mt-[0px]">
+          <div className=" w-full md:w-1/2 md:mt-[20px] mt-[0px]">
             <img
               src="logo-textured.png"
               alt=""
