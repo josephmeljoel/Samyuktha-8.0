@@ -41,17 +41,17 @@ export default function Home() {
               className="w-full h-full md:w-[600px] md:h-[600px] items-center justify-center"
             ></img>
           </div>
-          <motion.div
-            ref={ref}
-            initial={{ x: 200 }} // Start offscreen to the left
-            animate={{ x: isInView ? 0 : 0 }} // Slide to final position when in view
-            transition={{ duration: .7, ease: "easeOut" }}
-            className="w-full md:w-1/2 h-full md:mt-[120px] mt-0"
-          >
-            <p className="text-green-400 text-[Sega] md:text-[30px] pb-[20px] text-center text-[20px] ">
+          <div className="w-full md:w-1/2 h-full md:mt-[120px] mt-0">
+            <p className="text-green-400 font-[SEGA] md:text-[30px] pb-[20px] text-center text-[20px] ">
               About
             </p>
-            <p className="text-left text-[grey] md:text-[20px] text-[15px] font-[Inter] pb-5 pt-5">
+            <motion.p
+              ref={ref}
+              initial={{ opacity: 0, y: 120 }} // Start from below with opacity 0
+              animate={{ opacity: isInView ? 1 : 0, x: isInView ? 0 : 150 }} // Animate up when in view
+              transition={{ duration: 0.8, ease: "easeOut" }}
+              className="text-left text-[grey] md:text-[20px] text-[15px] font-[Inter] pb-5 pt-5"
+            >
               SAINTGITS College of Engineering organizes ‘Samyuktha 8.0’, a
               national level techno cultural fest, on October 19th. ‘Samyuktha’
               has been successfully organized for the past five years and serves
@@ -67,8 +67,8 @@ export default function Home() {
               jointly organized by a team of dedicated staff members and
               students who are leaving no stone unturned to ensure that this
               year’s ‘Samyuktha’ is bigger and better than the previous year.
-            </p>
-          </motion.div>
+            </motion.p>
+          </div>
         </div>
 
         {/* <div className="container max-w-md sm:max-w-lg lg:max-w-4xl mx-auto mb-5"> */}
