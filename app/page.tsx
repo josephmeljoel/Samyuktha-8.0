@@ -24,6 +24,11 @@ export default function Home() {
           <p className="text-[40px] md:text-[65px] lg:text-[85px] text-[#ff9933] font-[400] main-heading">
             SAMYUKTHA
           </p>
+
+          <div className="flex mt-[20px] md:mt-[60px] gap-[15px] items-center justify-center">
+<p className="text-[25px] md:text-[50px] font-[BlueSpirits]"> October</p>
+<p className="text-[35px] md:text-[60px] font-[BlueSpirits]">18</p>
+          </div>
         </div>
 
         <div className="w-full h-[300px]">
@@ -33,24 +38,20 @@ export default function Home() {
           ></iframe>
         </div>
 
-        <div className=" md:flex w-full h-full items-center justify-center mt-0">
+        <div className=" md:flex w-full h-full items-center justify-center md:mt-[100px] mt-0">
           <div className=" w-full md:w-1/2 md:mt-[20px] mt-0">
             <img
               src="logo-textured.png"
               alt=""
-              className="w-full h-full md:w-[600px] md:h-[600px] items-center justify-center"
+              className="w-full h-full md:w-[600px] md:h-[600px] "
             ></img>
           </div>
-          <div className="w-full md:w-1/2 h-full md:mt-[120px] mt-0">
+          <div className=" md:grid w-full md:w-1/2 h-full items-center justify-center">
             <p className="text-green-400 font-[SEGA] md:text-[30px] pb-[20px] text-center text-[20px] ">
               About
             </p>
-            <motion.p
-              ref={ref}
-              initial={{ opacity: 0, y: 120 }} // Start from below with opacity 0
-              animate={{ opacity: isInView ? 1 : 0, x: isInView ? 0 : 150 }} // Animate up when in view
-              transition={{ duration: 0.8, ease: "easeOut" }}
-              className="text-left text-[grey] md:text-[20px] text-[15px] font-[Inter] pb-5 pt-5"
+            
+            <p className="text-left text-[grey] md:text-[20px] text-[15px] font-[Inter] pb-5 pt-5"
             >
               SAINTGITS College of Engineering organizes ‘Samyuktha 8.0’, a
               national level techno cultural fest, on October 19th. ‘Samyuktha’
@@ -67,12 +68,12 @@ export default function Home() {
               jointly organized by a team of dedicated staff members and
               students who are leaving no stone unturned to ensure that this
               year’s ‘Samyuktha’ is bigger and better than the previous year.
-            </motion.p>
+            </p>
           </div>
         </div>
 
         {/* <div className="container max-w-md sm:max-w-lg lg:max-w-4xl mx-auto mb-5"> */}
-        <h1 className="text-[60px] text-center mb-6 font-[SEGA]">
+        <h1 className="md:text-[60px] text-[30px] text-center mb-6 font-[SEGA] md:mt-[100px] mt-[120px]">
           Featured Events
         </h1>
         <motion.div
@@ -80,7 +81,7 @@ export default function Home() {
           initial={{ opacity: 0, y: 50 }} // Start from below with opacity 0
           animate={{ opacity: isInView ? 1 : 0, y: isInView ? 0 : 50 }} // Animate up when in view
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="grid grid-cols-1 md:grid-cols-4 justify-items-center"
+          className="grid grid-cols-1 md:grid-cols-4 justify-items-center z-50"
         >
           {FeaturedEvents.map(
             (item, index) =>
@@ -90,6 +91,25 @@ export default function Home() {
           )}
           {/* </div> */}
         </motion.div>
+
+
+
+        <div className='flex w-full h-full pt-40 justify-center  items-center'>
+        <div className='grid gap-[20px] w-full h-auto bg-[#0e0622] rounded-[20px]  py-[30px]'>
+       <p className=" font-[Inter] font-[800] md:text-[30px] text-[20px] text-center text-red-600">Mandatory rules to follow</p>
+
+       <div className="grid gap-[20px] pt-[30px]">
+       <p className="  md:text-[15px] text-[13px] text-left md:px-[20px] px-[30px]">- Only students enrolled in non-engineering courses are eligible to participate in the event.</p>
+       <p className="  md:text-[15px] text-[13px] text-left md:px-[20px] px-[30px]">- Participants are required to present a valid student ID card or any official proof from the department. Failure to provide proof may result in disqualification.</p>
+       <p className="  md:text-[15px] text-[13px] text-left md:px-[20px] px-[30px]">- The decision of the judges for each event is final and binding. No appeals or disputes regarding the judges' decisions will be entertained.</p>
+       <p className="  md:text-[15px] text-[13px] text-left md:px-[20px] px-[30px]">We kindly urge all prospective participants to thoroughly understand and commit to abiding by these rules. Their adherence is vital to ensure a fair and harmonious event while upholding the event's integrity.</p>
+       </div>
+       
+        </div>
+    </div>
+
+
+
       </div>
       <Footer />
     </main>
