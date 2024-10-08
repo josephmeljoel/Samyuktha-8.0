@@ -26,11 +26,11 @@ export default function Home() {
           </p>
 
           <div className="flex mt-[20px] md:mt-[60px] gap-[15px] items-center justify-center">
-            <p className="text-[25px] md:text-[50px] font-[BlueSpirits]">
+            <p className="text-[25px] md:text-[50px] text-white font-[BlueSpirits]">
               {" "}
               October
             </p>
-            <p className="text-[35px] md:text-[60px] font-[BlueSpirits]">18</p>
+            <p className="text-[35px] md:text-[60px] text-white font-[BlueSpirits]">18</p>
           </div>
         </div>
 
@@ -75,7 +75,7 @@ export default function Home() {
         </div>
 
         {/* <div className="container max-w-md sm:max-w-lg lg:max-w-4xl mx-auto mb-5"> */}
-        <h1 className="md:text-[60px] text-[30px] text-center mb-6 font-[SEGA] md:mt-[100px] mt-[120px]">
+        <h1 className="md:text-[60px] text-[30px] text-white text-center mb-6 font-[SEGA] md:mt-[100px] mt-[120px]">
           Featured Events
         </h1>
         <motion.div
@@ -105,7 +105,7 @@ export default function Home() {
               Mandatory rules to follow
             </p>
 
-            <div className="grid gap-[20px] pt-[30px]">
+            <div className="grid gap-[20px] text-white pt-[30px]">
               <p className="  md:text-[15px] text-[13px] text-left md:px-[20px] px-[30px]">
                 - Only students enrolled in non-engineering courses are eligible
                 to participate in the event.

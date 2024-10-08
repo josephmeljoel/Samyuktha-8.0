@@ -41,7 +41,7 @@ export default function page() {
   return (
     <div className="w-full h-auto">
       <Navbar />
-      <div className="container w-full md:w-3/4 md:mx-auto justify-center">
+      <div className="container w-full text-white md:w-3/4 md:mx-auto justify-center">
         <div className="w-full h-auto items-center justify-center">
           <div className="md:flex">
             <div className="md:w-1/4 h-auto  ">

@@ -5,7 +5,7 @@ import "./styles/footer.css"
 function Footer() {
     return (
         <>
-            <div className='bg-[#131842] mt-[80px] pt-1 pb-1'>
+            <div className='bg-[#131842] text-white mt-[80px] pt-1 pb-1'>
             <div className='container max-w-md sm:max-w-lg lg:max-w-4xl mx-auto justify-center h-full md:h-[430px]'>
                 <div className="grid md:flex md:gap-8 gap-0 justify-center">
                     <div className="p-4">

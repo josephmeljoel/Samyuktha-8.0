@@ -6,7 +6,7 @@ export default function contact() {
   return (
     <div>
       <Navbar/>
-    <div className='grid w-full h-full justify-center items-center '>
+    <div className='grid w-full h-full text-white justify-center items-center '>
 
 
       <div className='grid justify-center items-center'>

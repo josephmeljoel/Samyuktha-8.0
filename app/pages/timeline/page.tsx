@@ -43,7 +43,7 @@ export default function page() {
   return (
     <>
       <Navbar />
-      <h1 className='text-center text-[80px]'>Event Shedule</h1>
+      <h1 className='text-center text-[80px] text-white font-[blueSpirits]'>Event Schedule</h1>
       <div className="timeline z-50">
         <ul>
           {shedule.map((item) => (
