@@ -1,3 +1,4 @@
+import Footer from '@/app/components/main/Footer'
 import Navbar from '@/app/components/main/Navbar'
 import React from 'react'
 
@@ -34,8 +35,10 @@ export default function contact() {
                             <p className='text-center md:text-[25px] text-[15px] font-[600]'>Paul&nbsp;Prince&nbsp;&nbsp;--&nbsp;&nbsp;9946899977</p>
                             <p className='text-center md:text-[25px] text-[15px] font-[600]'>Aparna&nbsp;Menon&nbsp;&nbsp;--&nbsp;&nbsp;9946899977</p>
                             </div>
-      </div>         
+      </div>   
+          
     </div>
+    <Footer/>  
     </div>
   )
 }

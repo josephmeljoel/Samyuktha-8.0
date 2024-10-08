@@ -17,11 +17,8 @@ export default function Events() {
         <h1 className="event-head md:text-[100px] text-[30px] font-[BlueSpirits]">
           Events
         </h1>
-        <motion.div
-          ref={ref}
-          initial={{ opacity: 0, y: 50 }} // Start from below with opacity 0
-          animate={{ opacity: isInView ? 1 : 0, y: isInView ? 0 : 50 }} // Animate up when in view
-          transition={{ duration: 0.8, ease: "easeOut" }}
+        <div
+          
           className="grid grid-cols-1 md:grid-cols-3 gap-4 justify-items-center"
         >
           {EventData.map(
@@ -30,7 +27,7 @@ export default function Events() {
                 <FlipCard key={index} data={item} /> // Add a unique key prop
               ) : null // Skip rendering for empty objects
           )}
-        </motion.div>
+        </div>
       </div>
     </>
   );
