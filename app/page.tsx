@@ -46,12 +46,12 @@ export default function Home() {
               className="w-full h-full md:w-[600px] md:h-[600px] "
             ></img>
           </div>
-          <div className=" md:grid w-full md:w-1/2 h-full items-center justify-center">
-            <p className="text-green-400 font-[SEGA] md:text-[30px] pb-[20px] text-center text-[20px] ">
+          <div className=" md:flex flex-col w-full md:w-1/2 h-full items-center justify-center">
+            <p className="text-green-400 font-[SEGA] md:text-[30px] text-center text-[20px] mb-10">
               About
             </p>
             
-            <p className="text-left text-[grey] md:text-[20px] text-[15px] font-[Inter] pb-5 pt-5"
+            <p className="text-left text-[grey] md:text-[20px] text-[15px] font-[Inter] pb-5"
             >
               SAINTGITS College of Engineering organizes ‘Samyuktha 8.0’, a
               national level techno cultural fest, on October 19th. ‘Samyuktha’
