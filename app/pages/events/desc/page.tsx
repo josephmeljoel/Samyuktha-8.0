@@ -79,7 +79,9 @@ export default function page() {
 
                 {authState.authState ? (
                   <button className="w-[150px] h-[40px] border border-red-500 rounded-[20px] mb-[20px] z-50 hover:bg-red-500">
-                    <p className="test-[10px] font-[600]">Register</p>
+                    <a className="test-[10px] font-[600]" href={event?.link}>
+                      Register
+                    </a>
                   </button>
                 ) : (
                   <button className="w-[150px] h-[40px] border border-red-500 rounded-[20px] mb-[20px] z-50 hover:bg-red-500">
