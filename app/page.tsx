@@ -20,10 +20,12 @@ export default function Home() {
         {/* <div className="flex justify-center smyk-654 ">
           <video className="w-[1000px] h-[500px]" autoPlay loop muted playsInline src="/bitrat.mp4"></video>
         </div> */}
-        <div className="w-[full] flex flex-col items-center justify-center">
-          <p className="text-[40px] md:text-[65px] lg:text-[85px] text-[#ff9933] font-[400] main-heading">
+        <div className="w-[full] flex flex-col items-center justify-center  ">
+          <div className="bg-gradient-to-r from-[#e31768] to-[#febf96] bg-clip-text text-transparent px-[20px] rounded-[40px]">
+          <p className="text-[40px] md:text-[65px] lg:text-[85px]  font-[400] main-heading">
             SAMYUKTHA
           </p>
+          </div>
 
           <div className="flex mt-[20px] md:mt-[60px] gap-[15px] items-center justify-center">
             <p className="text-[25px] md:text-[50px] text-white font-[BlueSpirits]">
