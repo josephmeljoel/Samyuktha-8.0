@@ -26,8 +26,11 @@ export default function Home() {
           </p>
 
           <div className="flex mt-[20px] md:mt-[60px] gap-[15px] items-center justify-center">
-<p className="text-[25px] md:text-[50px] font-[BlueSpirits]"> October</p>
-<p className="text-[35px] md:text-[60px] font-[BlueSpirits]">18</p>
+            <p className="text-[25px] md:text-[50px] font-[BlueSpirits]">
+              {" "}
+              October
+            </p>
+            <p className="text-[35px] md:text-[60px] font-[BlueSpirits]">18</p>
           </div>
         </div>
 
@@ -50,9 +53,8 @@ export default function Home() {
             <p className="text-green-400 font-[SEGA] md:text-[30px] text-center text-[20px] mb-10">
               About
             </p>
-            
-            <p className="text-left text-[grey] md:text-[20px] text-[15px] font-[Inter] pb-5"
-            >
+
+            <p className="text-left text-[grey] md:text-[20px] text-[15px] font-[Inter] pb-5">
               SAINTGITS College of Engineering organizes ‘Samyuktha 8.0’, a
               national level techno cultural fest, on October 19th. ‘Samyuktha’
               has been successfully organized for the past five years and serves
@@ -89,27 +91,44 @@ export default function Home() {
                 <FeatureCard key={index} data={item} /> // Add a unique key prop
               ) : null // Skip rendering for empty objects
           )}
+
           {/* </div> */}
         </motion.div>
-
-
-
-        <div className='flex w-full h-full pt-40 justify-center  items-center'>
-        <div className='grid gap-[20px] w-full h-auto bg-[#0e0622] rounded-[20px]  py-[30px]'>
-       <p className=" font-[Inter] font-[800] md:text-[30px] text-[20px] text-center text-red-600">Mandatory rules to follow</p>
-
-       <div className="grid gap-[20px] pt-[30px]">
-       <p className="  md:text-[15px] text-[13px] text-left md:px-[20px] px-[30px]">- Only students enrolled in non-engineering courses are eligible to participate in the event.</p>
-       <p className="  md:text-[15px] text-[13px] text-left md:px-[20px] px-[30px]">- Participants are required to present a valid student ID card or any official proof from the department. Failure to provide proof may result in disqualification.</p>
-       <p className="  md:text-[15px] text-[13px] text-left md:px-[20px] px-[30px]">- The decision of the judges for each event is final and binding. No appeals or disputes regarding the judges' decisions will be entertained.</p>
-       <p className="  md:text-[15px] text-[13px] text-left md:px-[20px] px-[30px]">We kindly urge all prospective participants to thoroughly understand and commit to abiding by these rules. Their adherence is vital to ensure a fair and harmonious event while upholding the event's integrity.</p>
-       </div>
-       
+        <div className="z-50 flex justify-center items-center w-full ">
+          <a className="bg-[#F3C623] font-[600] text-black px-4 py-2 hover:bg-[#EB8317] rounded explore-btn explore-btn transition duration-300" href="/pages/events">
+            Explore More
+          </a>
         </div>
-    </div>
+        <div className="flex w-full h-full pt-40 justify-center  items-center">
+          <div className="grid gap-[20px] w-full h-auto bg-[#0e0622] rounded-[20px]  py-[30px]">
+            <p className=" font-[Inter] font-[800] md:text-[30px] text-[20px] text-center text-red-600">
+              Mandatory rules to follow
+            </p>
 
-
-
+            <div className="grid gap-[20px] pt-[30px]">
+              <p className="  md:text-[15px] text-[13px] text-left md:px-[20px] px-[30px]">
+                - Only students enrolled in non-engineering courses are eligible
+                to participate in the event.
+              </p>
+              <p className="  md:text-[15px] text-[13px] text-left md:px-[20px] px-[30px]">
+                - Participants are required to present a valid student ID card
+                or any official proof from the department. Failure to provide
+                proof may result in disqualification.
+              </p>
+              <p className="  md:text-[15px] text-[13px] text-left md:px-[20px] px-[30px]">
+                - The decision of the judges for each event is final and
+                binding. No appeals or disputes regarding the judges' decisions
+                will be entertained.
+              </p>
+              <p className="  md:text-[15px] text-[13px] text-left md:px-[20px] px-[30px]">
+                We kindly urge all prospective participants to thoroughly
+                understand and commit to abiding by these rules. Their adherence
+                is vital to ensure a fair and harmonious event while upholding
+                the event's integrity.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
       <Footer />
     </main>
