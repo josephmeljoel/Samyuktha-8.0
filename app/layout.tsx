@@ -6,6 +6,8 @@ import "./index.css";
 import { Provider } from "react-redux";
 import { Store } from "./context/store/store";
 import Providers from "./context/provider/provider";
+import { Suspense } from "react";
+import Loader from "./components/main/Loader";
 
 const pressStart = Press_Start_2P({
   subsets: ["latin"],
@@ -27,7 +29,9 @@ export default function RootLayout({
       <body className={`bg-[#030014] overflow-y-scroll overflow-x-hidden`}>
         <StarsCanvas />
 
-        <Providers>{children}</Providers>
+        <Providers>
+          <Suspense fallback={<Loader />}>{children}</Suspense>
+        </Providers>
       </body>
     </html>
   );

@@ -1,16 +1,16 @@
 "use client";
 
-import React from "react";
+import React, { Suspense } from "react";
 import Navbar from "@/app/components/main/Navbar";
 import { useSearchParams } from "next/navigation";
 
 // Import Data
-import { EventData, } from "@/app/assets/data/events";
+import { EventData } from "@/app/assets/data/events";
 
 import { signInWithGoogle } from "@/app/services/auth";
 
 // State Manage
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 import { IAuthState, setAuthState } from "@/app/context/store/authSlice";
 import checkRegisteration from "@/app/services/checkRegister";
 import Footer from "@/app/components/main/Footer";
@@ -165,10 +165,6 @@ export default function page() {
               <p className="mt-[20px]">- {item}</p>
             ))}
           </div>
-
-          {/* <div className="grid gap-[30px] h-auto md:pl-[50px] md:pr-[10px] md:w-2/3 md:mt-[0px] mt-[20px] justify-center">
-           
-          </div> */}
         </div>
       </div>
       <Footer />
