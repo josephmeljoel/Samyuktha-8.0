@@ -2,7 +2,7 @@
 import React from "react";
 import "./styles/FeatureCard.css";
 
-interface FlipCardProps {
+interface FeatureCardProps {
   data: {
     url: string;
     id: number;
@@ -10,7 +10,7 @@ interface FlipCardProps {
   };
 }
 
-const FlipCard: React.FC<FlipCardProps> = ({ data }) => {
+const FeatureCard: React.FC<FeatureCardProps> = ({ data }) => {
   return (
     <>
       <div className="card z-50">
@@ -35,4 +35,4 @@ const FlipCard: React.FC<FlipCardProps> = ({ data }) => {
   );
 };
 
-export default FlipCard;
+export default FeatureCard;
