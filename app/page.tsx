@@ -21,7 +21,7 @@ export default function Home() {
           <video className="w-[1000px] h-[500px]" autoPlay loop muted playsInline src="/bitrat.mp4"></video>
         </div> */}
         <div className="w-[full] flex flex-col items-center justify-center  ">
-          <div className="bg-gradient-to-r from-[#e31768] to-[#febf96] bg-clip-text text-transparent px-[20px] rounded-[40px]">
+          <div className="bg-gradient-to-r from-[#e31768] to-[#febf96] bg-clip-text text-transparent px-[20px] rounded-[40px] z-50">
           <p className="text-[40px] md:text-[65px] lg:text-[85px]  font-[400] main-heading">
             SAMYUKTHA
           </p>
