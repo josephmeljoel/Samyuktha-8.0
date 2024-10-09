@@ -155,9 +155,9 @@ export default function page() {
               </svg>
 
               <p className="text-[15px] text-center mt-[40px]"> 1st:</p>
-              <p className="text-[15px] text-center">Rs 5000</p>
+              <p className="text-[15px] text-center">Rs: {event?.first}</p>
               <p className="text-[15px] text-center mt-[30px]"> 2nd: </p>
-              <p className="text-[15px] text-center">Rs 5000</p>
+              <p className="text-[15px] text-center">Rs:   : {event?.second}</p>
             </div>
           </div>
         </div>
