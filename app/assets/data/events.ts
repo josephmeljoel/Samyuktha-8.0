@@ -50,7 +50,7 @@ var EventData = [
     description:
       "The relentless river that flows, untamed by mortal hands. It slips through our fingers, marking our past, present, and future. In its embrace, memories fade, moments are seized, and life's journey unfolds. Explore the ephemeral beauty and unyielding march of time in this mesmerizing 30-second reel.",
     rules: [
-      "- The reel should be based the given theme : TIME",
+      "- The reel should be based the given theme : ",
       "- For each participant, will accept only one entry, and a second entry will lead to disqualification.",
       "- Individual, as well as group entries (not more than 4 people), are allowed.",
       "- The reel must be original creation; Plagiarized content lead to disqualification",
@@ -58,7 +58,7 @@ var EventData = [
       "- As per Reel format, the video should be made vertically and not horizontally.",
       "- Participants shall send their videos of not more than 40MB",
       "- Participants can upload their videos on a drive and share the link of the drive in the mail id: samyuktha7.0reel30s@saintgits.org",
-      "- Any Reel received after October 23th 2023, 11:59 PM, will not be considered for the Competition.",
+      "- Any Reel received after October 17th 2024, 11:59 PM, will not be considered for the Competition.",
       "- The screening round will be based on the message imparted by the reel based on the given theme.",
       "- The screening round will be based on the message imparted by the reel based on the given theme",
       "- TOP 5 Winners will be decided after the judgment of the evaluation panel",
