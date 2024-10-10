@@ -1,4 +1,4 @@
-import { url } from "inspector";
+'use client';
 import { useState, useEffect } from "react";
 import "./styles/CountDown.css"
 
