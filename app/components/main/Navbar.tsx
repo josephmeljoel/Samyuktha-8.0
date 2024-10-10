@@ -28,7 +28,7 @@ export default function Navbar() {
 
                 {/* Right Side Nav Links */}
                 <div className="hidden md:flex space-x-12 z-50">
-                    <a className='text-[30px] font-[300] text-[white] font-[blueSpirits]' href='/pages/timeline'>Shedule</a>
+                    <a className='text-[30px] font-[300] text-[white] font-[blueSpirits]' href='/pages/timeline'>Schedule</a>
                     <a className='text-[30px] font-[300] text-[white] font-[blueSpirits]' href='/pages/Contact'>Contact</a>
                 </div>
 

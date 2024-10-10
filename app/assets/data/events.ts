@@ -217,7 +217,7 @@ rules: [
   },
 {
     id: 8,
-    url: "/event6.jpg",
+    url: "/paper.jpg",
     event_name: "Classic conclave",
     event_alternative_name: "PAPER PRESENTATION",
     registeration_fee: 100,
@@ -241,7 +241,7 @@ rules: [
   },
   {
     id: 9,
-    url: "/event6.jpg",
+    url: "/football.jpg",
     event_name: "old school kickoff",
     event_alternative_name: "FOOTBALL",
     link: "https://airtable.com/appgHAVetgIyskG9Q/pagI1pbTsDxDUIbd4/form",
@@ -272,7 +272,7 @@ rules: [
   },
   {
     id: 10,
-    url: "/event6.jpg",
+    url: "/photography.jpg",
     event_name: "polaroid perspective",
     event_alternative_name: "PHOTOGRAPHY",
     link: "https://airtable.com/appgHAVetgIyskG9Q/pagcWo8eUATvak49i/form",
@@ -302,7 +302,7 @@ rules: [
   },
   {
     id: 11,
-    url: "/event6.jpg",
+    url: "/coding.jpg",
     event_name: "binary arcade",
     link: "https://airtable.com/appgHAVetgIyskG9Q/pagrutAV7m6J2e463/form",
     event_alternative_name: "CODING",
@@ -329,7 +329,7 @@ rules: [
 },
   {
     id: 12,
-    url: "/event6.jpg",
+    url: "/web.jpg",
     event_name: "back to the browser",
     event_alternative_name: "WEB DESIGNING",
     registeration_fee: 100,
@@ -358,11 +358,11 @@ rules: [
   },
   {
     id: 13,
-    url: "/event6.jpg",
+    url: "/treasureHunt.jpg",
     event_name: "secret expedition",
     event_alternative_name: "TREASURE HUNT",
     link: "https://airtable.com/appgHAVetgIyskG9Q/pagUlgcz5jfwCYKCX/form",
-    registeration_fee: 100,
+    registeration_fee: 200,
     event_type_1: "Cultural",
     event_type_2: "Group(4)",
     head_name_1: "Pranav K Manoj",
@@ -374,7 +374,7 @@ rules: [
     description:
       "Embark on an exhilarating journey through the mysterious and spooky world of 'Samyuktha' with our Treasure Hunt event. Prepare to put your problem-solving skills to the test as you follow cryptic clues, solve riddles, and uncover hidden treasures. It's a thrilling adventure where participants must work in teams, using their wit and creativity to navigate through a series of challenges.",
     rules: [
-      "Each team comprises 2 to 4 members.",
+      "Each team comprises of 4 members.",
       "The team members cannot change their team.",
       "Participants should carry their college ID card.",
       "The clues are to be found in a particular order. Manipulation of the clues will lead to disqualification. The participants do not have the right to replace or manipulate others clues.",
@@ -386,7 +386,7 @@ rules: [
   },
   {
     id: 14,
-    url: "/event6.jpg",
+    url: "/star.jpg",
     event_name: "noval ux of solaris",
     event_alternative_name: "STAR OF SAMYUKTHA",
     registeration_fee: 100,
@@ -415,7 +415,7 @@ rules: [
 const FeaturedEvents = [
   {
     id: 14,
-    url: "/event6.jpg",
+    url: "/star.jpg",
     event_name: "noval ux of solaris",
     event_alternative_name: "STAR OF SAMYUKTHA",
     registeration_fee: 100,
@@ -441,11 +441,11 @@ const FeaturedEvents = [
   },
   {
     id: 13,
-    url: "/event6.jpg",
+    url: "/treasureHunt.jpg",
     event_name: "secret expedition",
     event_alternative_name: "TREASURE HUNT",
     link: "https://airtable.com/appgHAVetgIyskG9Q/pagUlgcz5jfwCYKCX/form",
-    registeration_fee: 100,
+    registeration_fee: 200,
     event_type_1: "Cultural",
     event_type_2: "Gropu(4)",
     head_name_1: "Pranav K Manoj",
@@ -457,7 +457,7 @@ const FeaturedEvents = [
     description:
       "Embark on an exhilarating journey through the mysterious and spooky world of 'Samyuktha' with our Treasure Hunt event. Prepare to put your problem-solving skills to the test as you follow cryptic clues, solve riddles, and uncover hidden treasures. It's a thrilling adventure where participants must work in teams, using their wit and creativity to navigate through a series of challenges.",
     rules: [
-      "Each team comprises 2 to 4 members.",
+      "Each team comprises of 4 members.",
       "The team members cannot change their team.",
       "Participants should carry their college ID card.",
       "The clues are to be found in a particular order. Manipulation of the clues will lead to disqualification. The participants do not have the right to replace or manipulate others clues.",
@@ -469,7 +469,7 @@ const FeaturedEvents = [
   },
   {
     id: 10,
-    url: "/event6.jpg",
+    url: "/photography.jpg",
     event_name: "polaroid perspective",
     event_alternative_name: "PHOTOGRAPHY",
     link: "https://airtable.com/appgHAVetgIyskG9Q/pagcWo8eUATvak49i/form",

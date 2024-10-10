@@ -29,7 +29,7 @@ export default function Events() {
           )}
           
         </div>
-        <p className="text-[13px] opacity-70 text-red-500 mt-[60px] md:text-[20px] text-[Inter] font-[600] md:mt-[100px] ">Disclaimer:Participants willing to participate in multiple events 
+        <p className="text-[13px] opacity-70 px-[20px] text-red-500 mt-[60px] md:text-[20px] text-[Inter] font-[600] md:mt-[100px] ">Disclaimer:Participants willing to participate in multiple events 
             should review the provided Schedule 
           </p>
       </div>

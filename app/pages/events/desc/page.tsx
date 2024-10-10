@@ -46,7 +46,7 @@ export default function page() {
           <div className="md:flex">
             <div className="md:w-1/4 h-auto  ">
               <img
-                src="/event1.jpg"
+                src={event?.url}
                 className="md:w-full md:h-3/4 md:px-7 md:py-12 px-10 py-12"
                 alt=""
               />
