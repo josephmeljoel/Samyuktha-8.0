@@ -34,7 +34,7 @@ var EventData = [
   },
   {
     id: 2,
-    url: "/event2.jpg",
+    url: "/reels.jpg",
     link: "https://airtable.com/appgHAVetgIyskG9Q/pagCdWruCgYHjKQbm/form",
     event_name: "Flashback Frames",
     event_alternative_name: "REELS",
@@ -127,7 +127,7 @@ var EventData = [
   },
   {
     id: 5,
-    url: "/event5.jpg",
+    url: "/fast-typing.jpg",
     event_name: "Rampage Rush",
     event_alternative_name: "FAST TYPING",
     link: "https://airtable.com/appgHAVetgIyskG9Q/pag72IsyJlcal2C4I/form",
@@ -156,7 +156,7 @@ var EventData = [
   },
   {
     id: 6,
-    url: "/event6.jpg",
+    url: "/best-singer.jpg",
     event_name: "Yenme Echoes",
     event_alternative_name: "BEST SINGER",
     link: "https://airtable.com/appgHAVetgIyskG9Q/pagzqFUCUzr7wNme8/form",
@@ -187,7 +187,7 @@ var EventData = [
   },
   {
     id: 7,
-    url: "/event6.jpg",
+    url: "/quiz.jpg",
     event_name: "Binary brain busters",
     event_alternative_name: "TECHNICAL QUIZ",
     link: "https://airtable.com/appgHAVetgIyskG9Q/pag5HFf33HKnc6gGl/form",
@@ -499,7 +499,7 @@ const FeaturedEvents = [
   },
   {
     id: 6,
-    url: "/event6.jpg",
+    url: "/best-singer.jpg",
     event_name: "Yenme Echoes",
     event_alternative_name: "BEST SINGER",
     link: "https://airtable.com/appgHAVetgIyskG9Q/pagzqFUCUzr7wNme8/form",
