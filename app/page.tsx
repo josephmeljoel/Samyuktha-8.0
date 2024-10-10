@@ -87,7 +87,7 @@ export default function Home() {
           initial={{ opacity: 0, y: 50 }} // Start from below with opacity 0
           animate={{ opacity: isInView ? 1 : 0, y: isInView ? 0 : 50 }} // Animate up when in view
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="grid grid-cols-1 md:grid-cols-4 justify-items-center z-50"
+          className="grid gap-[20px] grid-cols-1 md:grid-cols-4 justify-items-center z-50"
         >
           {FeaturedEvents.map(
             (item, index) =>
