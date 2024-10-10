@@ -17,21 +17,18 @@ export default function Events() {
         <h1 className="event-head text-white md:text-[60px] text-[25px] font-[Sega]">
           Events
         </h1>
-        <div
-          
-          className="grid grid-cols-1 md:grid-cols-3 gap-4 justify-items-center"
-        >
+        <p className=" text-center md:text-[20px] text-[20px] opacity-70 px-[20px] text-red-500 mb-[50px] md:mb-[30px] mt-[60px] md:text-[20px] text-[Inter] font-[600] md:mt-[100px] ">
+          Disclaimer: Participants willing to participate in multiple events
+          should review the provided Schedule
+        </p>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 justify-items-center">
           {EventData.map(
             (item, index) =>
               item.url ? ( // Check if the URL exists
                 <FlipCard key={index} data={item} /> // Add a unique key prop
               ) : null // Skip rendering for empty objects
           )}
-          
         </div>
-        <p className="text-[13px] opacity-70 px-[20px] text-red-500 mt-[60px] md:text-[20px] text-[Inter] font-[600] md:mt-[100px] ">Disclaimer:Participants willing to participate in multiple events 
-            should review the provided Schedule 
-          </p>
       </div>
     </>
   );

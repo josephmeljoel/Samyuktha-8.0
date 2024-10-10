@@ -77,12 +77,13 @@ export default function page() {
                   Registration Fee: {event?.registeration_fee}.
                 </p>
 
-                {/* {authState.authState ? (
-                  <button className="w-[150px] h-[40px] border border-red-500 rounded-[20px] mb-[20px] z-50 hover:bg-red-500">
-                    <a className="test-[10px] font-[600]" href={event?.link}>
-                      Register
-                    </a>
-                  </button>
+                {authState.authState ? (
+                  <a
+                    className="font-[600] w-[190px] h-[40px] text-center pt-2 border border-red-500 rounded-[20px] mb-[20px] z-50 hover:bg-red-500"
+                    href={event?.link}
+                  >
+                    Register
+                  </a>
                 ) : (
                   <button className="w-[190px] h-[40px] border border-red-500 rounded-[20px] mb-[20px] z-50 hover:bg-red-500">
                     <p
@@ -92,11 +93,11 @@ export default function page() {
                       Sign In To Register
                     </p>
                   </button>
-                )} */}
+                )}
 
-                <button className="w-[290px] h-[40px] border border-red-500 rounded-[20px] mb-[20px] z-50 hover:bg-red-500">
+                {/* <button className="w-[290px] h-[40px] border border-red-500 rounded-[20px] mb-[20px] z-50 hover:bg-red-500">
                   <p className="test-[10px] font-[600]">Registeration will open soon</p>
-                </button>
+                </button> */}
               </div>
             </div>
           </div>
@@ -157,7 +158,7 @@ export default function page() {
               <p className="text-[15px] text-center mt-[40px]"> 1st:</p>
               <p className="text-[15px] text-center">Rs: {event?.first}</p>
               <p className="text-[15px] text-center mt-[30px]"> 2nd: </p>
-              <p className="text-[15px] text-center">Rs:   : {event?.second}</p>
+              <p className="text-[15px] text-center">Rs: : {event?.second}</p>
             </div>
           </div>
         </div>
