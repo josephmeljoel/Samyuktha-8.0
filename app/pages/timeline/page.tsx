@@ -9,34 +9,69 @@ export default function page() {
 
   var shedule = [
     {
-      name: 'Coding',
-      time: '10:30 AM',
+      name: 'Star Of Samyuktha',
+      time: '1:30 PM',
       desc: 'First Round Prelims'
     },
     {
-      name: 'Treasu Hunt',
-      time: '10:30 AM',
+      name: 'Gaming',
+      time: '10:40 AM',
       desc: 'Single Round'
 
     },
     {
       name: 'Web Designing',
-      time: '11:00 AM',
+      time: '10:40 AM',
       desc: 'First Round Prelims'
     },
     {
-      name: 'Photography',
-      time: '10:30 AM',
+      name: 'Coding',
+      time: '11:15 AM',
+      desc: 'First Round Prelims'
+    },
+    {
+      name: 'Fast Typing',
+      time: '1:15 PM',
+      desc: 'First Round Prelims'
+    },
+    {
+      name: 'Best Singer',
+      time: '10:45 AM',
+      desc: 'First Round Prelims'
+    },
+    {
+      name: 'Treasure Hunt',
+      time: '10:40 AM',
+      desc: 'First Round Prelims'
+    },
+    {
+      name: 'Ideathon',
+      time: '12:00 PM',
+      desc: 'First Round Prelims'
+    },
+    {
+      name: 'Technical Quiz',
+      time: '10:40 AM',
+      desc: 'First Round Prelims'
+    },
+    {
+      name: 'Paper Presentaion',
+      time: '10:50 AM',
       desc: 'First Round Prelims'
     },
     {
       name: 'Reels',
-      time: '10:30 AM',
-      desc: 'First Round Prelims'
+      time: '10:40 AM',
+      desc: 'Single Round'
+    },
+    {
+      name: 'Photography',
+      time: '10:40 AM',
+      desc: 'Single Round'
     },
     {
       name: 'Football',
-      time: '10:30 AM',
+      time: '10:40 AM',
       desc: 'First Round Prelims'
     },
   ]
