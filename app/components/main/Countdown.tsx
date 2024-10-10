@@ -39,9 +39,10 @@ const Countdown: React.FC<CountdownProps> = ({ targetDate }) => {
 
   return (
     <>
-      <div className="z-50 w-full h-16 rounded-2xl flex gap-9 flex-col items-center justify-center bg-cover bg-center md:mt-40 mt-20 mb-20">
+    <div className="grid items-center justify-center">
+      <div className="z-50 md:w-full w-[360px] h-16 border rounded-2xl flex gap-9 flex-col items-center justify-center bg-cover bg-center md:mt-40 mt-20 mb-20">
         <h1 className="md:text-[80px] text-[50px] font-[BlueSpirits] days-text text-transparent bg-clip-text">Days Left</h1>
-        <div className="flex items-start justify-center w-full gap-1.5 count-down-main">
+        <div className="flex border items-start justify-center md:w-full w-[360px] gap-1.5 count-down-main">
           <div className="timer">
             <div className="rounded-xl bg-black/25 backdrop-blur-sm py-3 min-w-[96px] flex items-center justify-center flex-col gap-1 px-3">
               <h3 className="text-[40px] md:text-[100px] countdown-element days font-manrope font-semibold text-white text-center">
@@ -86,6 +87,7 @@ const Countdown: React.FC<CountdownProps> = ({ targetDate }) => {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </>
   );
