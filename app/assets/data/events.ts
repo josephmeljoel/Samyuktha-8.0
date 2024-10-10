@@ -5,7 +5,7 @@ import { link } from "fs";
 var EventData = [
   {
     id: 1,
-    url: "/event1.jpg",
+    url: "/spotdance.jpg",
     event_name: "Disco Frenzy",
     event_alternative_name: "SPOT DANCE",
     link: "https://airtable.com/appgHAVetgIyskG9Q/pagDkKb4B3WekCKwZ/form",
@@ -68,7 +68,7 @@ var EventData = [
   },
   {
     id: 3,
-    url: "/event3.jpg",
+    url: "/gaming.jpg",
     event_name: "Zeus Odyssey",
     event_alternative_name: "GAMING",
     registeration_fee: 50,
@@ -93,7 +93,7 @@ var EventData = [
   },
     {
     id: 4,
-    url: "/event4.jpg",
+    url: "/ideathon.jpg",
     event_name: "Neon Nexus",
     event_alternative_name: "IDEATHON",
     link: "https://airtable.com/appgHAVetgIyskG9Q/pagWkmbmzQmQipEiV/form",
