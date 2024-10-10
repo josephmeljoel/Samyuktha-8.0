@@ -16,8 +16,8 @@ export default function Navbar() {
             <div className="mx-auto flex md:w-1/2 justify-center md:justify-between items-center">
                 {/* Left Side Nav Links */}
                 <div className="hidden md:flex space-x-12">
-                    <a href='/' className='text-[20px] font-[300] text-[white] z-50 font-[Sega]'>Home</a>
-                    <a href="/pages/events" className='text-[20px] font-[300] text-[white] z-50 font-[Sega]'>Events</a>
+                    <a href='/' className='text-[30px] font-[300] text-[white] z-50 font-[blueSpirits]'>Home</a>
+                    <a href="/pages/events" className='text-[30px] font-[300] text-[white] z-50 font-[blueSpirits]'>Events</a>
                 </div>
 
                 {/* Logo in the Center */}
@@ -28,8 +28,8 @@ export default function Navbar() {
 
                 {/* Right Side Nav Links */}
                 <div className="hidden md:flex space-x-12 z-50">
-                    <a className='text-[20px] font-[300] text-[white] font-[Sega]' href='/pages/timeline'>Shedule</a>
-                    <a className='text-[20px] font-[300] text-[white] font-[Sega]' href='/pages/Contact'>Contact</a>
+                    <a className='text-[30px] font-[300] text-[white] font-[blueSpirits]' href='/pages/timeline'>Shedule</a>
+                    <a className='text-[30px] font-[300] text-[white] font-[blueSpirits]' href='/pages/Contact'>Contact</a>
                 </div>
 
                 {/* Toggle Button for Mobile */}

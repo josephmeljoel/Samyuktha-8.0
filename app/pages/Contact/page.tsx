@@ -8,7 +8,7 @@ export default function contact() {
       <Navbar />
       <div className="grid w-full h-full text-white justify-center items-center ">
         <div className="grid justify-center items-center">
-          <p className="md:text-[70px] text-[40px] mt-[60px] font-[800] font-[BlueSpirits]">
+          <p className="md:text-[60px] text-[25px] mt-[60px] font-[Sega]">
             CONTACT
           </p>
         </div>

@@ -14,7 +14,7 @@ export default function Events() {
     <>
       <Navbar />
       <div className="container max-w-md sm:max-w-lg lg:max-w-4xl mx-auto mb-5">
-        <h1 className="event-head text-white md:text-[100px] text-[30px] font-[BlueSpirits]">
+        <h1 className="event-head text-white md:text-[60px] text-[25px] font-[Sega]">
           Events
         </h1>
         <div
