@@ -49,15 +49,15 @@ export default function Navbar() {
 
                 <div className="flex flex-col items-center space-y-4 mt-4 z-50">
 
-                    <a href='/' className="text-white text-[18px] text-white z-50">Home</a>
+                    <a href='/' className="text-white text-[18px] font-[blueSpirits] z-50">Home</a>
                     <hr className="border-t-2 border-[black] w-full my-2" />
-                    <a href='/pages/events' className="text-white text-[18px] text-white font-[400] z-50">Events</a>
-                    <hr className="border-t-2 border-[black] w-full my-2" />
-
-                    <a href='/pages/timeline' className="text-white text-[18px] text-white font-[400] z-50">Shedule</a>
+                    <a href='/pages/events' className="text-white text-[18px] font-[blueSpirits] font-[400] z-50">Events</a>
                     <hr className="border-t-2 border-[black] w-full my-2" />
 
-                    <a href='/pages/Contact' className="text-white text-[18px] text-white font-[400] z-50">Contact Us</a>
+                    <a href='/pages/timeline' className="text-white text-[18px] font-[blueSpirits] font-[400] z-50">Schedule</a>
+                    <hr className="border-t-2 border-[black] w-full my-2" />
+
+                    <a href='/pages/Contact' className="text-white text-[18px] font-[blueSpirits] font-[400] z-50">Contact Us</a>
                     <hr className="border-t-2 border-[black] w-full my-2" />
 
 
