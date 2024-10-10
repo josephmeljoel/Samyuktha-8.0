@@ -8,6 +8,7 @@ import { EventData, FeaturedEvents } from "./assets/data/events";
 import FeatureCard from "./components/main/FeatureCard";
 
 import { motion, useInView } from "framer-motion";
+import Countdown from "./components/main/Countdown";
 
 export default function Home() {
   const ref = React.useRef(null);
@@ -21,29 +22,30 @@ export default function Home() {
           <video className="w-[1000px] h-[500px]" autoPlay loop muted playsInline src="/bitrat.mp4"></video>
         </div> */}
         <div className="w-[full] flex flex-col items-center justify-center  ">
-         
           <p className=" bg-gradient-to-r from-[#e31768] to-[#febf96] rounded-[40px] px-[20px] text-[40px] md:text-[65px] lg:text-[85px]  font-[400] main-heading">
             SAMYUKTHA
           </p>
-          
 
           <div className="flex mt-[20px] md:mt-[60px] gap-[15px] items-center justify-center">
             <p className="text-[25px] md:text-[50px] text-white font-[BlueSpirits]">
               {" "}
               October
             </p>
-            <p className="text-[35px] md:text-[60px] text-white font-[BlueSpirits]">18</p>
+            <p className="text-[35px] md:text-[60px] text-white font-[BlueSpirits]">
+              18
+            </p>
           </div>
         </div>
 
-        <div className="w-full h-[100px]">
+        {/* <div className="w-full h-[100px]">
           <iframe
             src="/countdown.html"
             className="  scrolling=no  frameborder=0 title=Countdown allowtransparency=true w-full md:h-[200px] lg:h-[400px] xl-[600px] h-[150px] visibility: visible;"
           ></iframe>
-        </div>
+        </div> */}
+        <Countdown targetDate="2024-10-18T00:00:00" />
 
-        <div className=" md:flex w-full h-full items-center justify-center md:mt-[200px] mt-[0px]">
+        <div className="md:flex w-full h-full items-center justify-center md:mt-[50px] mt-[0px]">
           <div className=" w-full md:w-1/2 md:mt-[20px] mt-[0px]">
             <img
               src="logo-textured.png"
@@ -56,7 +58,7 @@ export default function Home() {
               About
             </p>
 
-            <p className="text-left text-[grey] md:text-[20px] text-[15px] font-[Inter] pb-5">
+            <p className="text-left text-[grey] md:text-[20px] text-[15px] font-[Inter] pb-5 text-center">
               SAINTGITS College of Engineering organizes ‘Samyuktha 8.0’, a
               national level techno cultural fest, on October 19th. ‘Samyuktha’
               has been successfully organized for the past five years and serves
@@ -97,7 +99,10 @@ export default function Home() {
           {/* </div> */}
         </motion.div>
         <div className="z-50 flex justify-center items-center w-full ">
-          <a className="bg-[#F3C623] font-[600] text-black px-4 py-2 hover:bg-[#EB8317] rounded explore-btn explore-btn transition duration-300" href="/pages/events">
+          <a
+            className="bg-[#F3C623] font-[600] text-black px-4 py-2 hover:bg-[#EB8317] rounded explore-btn explore-btn transition duration-300"
+            href="/pages/events"
+          >
             Explore More
           </a>
         </div>
