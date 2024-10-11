@@ -136,6 +136,23 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className="grid gap-[10px]">
+            <p className="font-[Sega] md:text-[30px] text-[20px] text-center mt-[40px] py-[40px] underline">
+              Event&nbsp;&nbsp;&nbsp;Coordinators
+            </p>
+            <p className="text-center md:text-[25px] text-[15px] font-[600]">
+              Paul&nbsp;Prince&nbsp;&nbsp;--&nbsp;&nbsp;9061268071
+            </p>
+            <p className="text-center md:text-[25px] text-[15px] font-[600]">
+              Aparna&nbsp;Menon&nbsp;&nbsp;--&nbsp;&nbsp;9496481205
+            </p>
+            <p className="text-center md:text-[25px] text-[15px] font-[600]">
+              Nandhana&nbsp;Pushpan&nbsp;&nbsp;--&nbsp;&nbsp;9495735439
+            </p>
+            <p className="text-center md:text-[25px] text-[15px] font-[600]">
+              Johan&nbsp;M&nbsp;Zachariah&nbsp;&nbsp;--&nbsp;&nbsp;8590929384
+            </p>
+          </div>
       </div>
       <Footer />
     </main>
