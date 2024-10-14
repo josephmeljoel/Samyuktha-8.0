@@ -34,7 +34,7 @@ var EventData = [
   },
   {
     id: 2,
-    url: "/reels.jpg",
+    url: "/reelsupdated.jpg",
     link: "https://airtable.com/appgHAVetgIyskG9Q/pagCdWruCgYHjKQbm/form",
     event_name: "Flashback Frames",
     event_alternative_name: "REELS",
@@ -56,11 +56,9 @@ var EventData = [
           "The maximum time limit for the reel is 30 seconds.",
           "The organizers will share a drive link, and all participants must upload their reels to that drive. The time limit for uploads will be announced on the spot.",
           "The organizers reserve the right to disqualify entries containing infringing, threatening, misleading, false, abusive, harassing, defamatory, obscene, vulgar, inflammatory, scandalous, pornographic, or profane content.",
-          "--Judging Criteria---:",
-          "The reels will be judged based on the message they convey in relation to the theme provided.",
-          "The decision of the judging panel will be final and cannot be contested.",
-          "Creativity, originality, and relevance to the theme will be key factors in determining the winners.",
-
+         "The first and second place winners will have the opportunity to collaborate with the Instagram pages Samyukta 8.0 and Vibes of SAINTGITS for their reels.",
+        "No watermarks are allowed on the reels.",
+        "All gadgets, including mobile phones and cameras, can be used to record the reel.",
     ],
   },
   {
@@ -332,7 +330,7 @@ var EventData = [
       "- You will be provided with a computer machine.",
       "- The decision of the judging panel will be final.",
       "- The organizing committee has the rights to make changes to the event.",
-      "- Event is only for UG students of non-engineering courses.",
+      "- Event is for Both UG and PG students of non-engineering courses.",
       "- College ID is mandatory.",
       "- Preliminary round : Aptitude test with 20 questions (Elimination)",
       "- Final round Problem solving",
