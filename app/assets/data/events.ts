@@ -65,7 +65,7 @@ var EventData = [
     id: 3,
     url: "/gaming.jpg",
     link: "https://airtable.com/appgHAVetgIyskG9Q/pageRrPdoh0jmamHL/form",
-    event_name: "Zeus Odyssey",
+    event_name: "Zeus Odyssey (VALORANT)",
     event_alternative_name: "GAMING (VALORANT)",
     registeration_fee: 200,
     event_type_1: "Technical",
@@ -251,7 +251,7 @@ var EventData = [
   {
     id: 9,
     url: "/football.jpg",
-    event_name: "old school kickoff",
+    event_name: "old school kickoff (3 x 3)",
     event_alternative_name: "FOOTBALL (3 x 3)",
     link: "https://airtable.com/appgHAVetgIyskG9Q/pagI1pbTsDxDUIbd4/form",
     registeration_fee: 150,
