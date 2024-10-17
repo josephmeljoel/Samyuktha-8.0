@@ -77,7 +77,13 @@ export default function page() {
                   Registration Fee: {event?.registeration_fee}.
                 </p>
 
-                {authState.authState ? (
+                {event?.closed ? (
+                  <button className="w-[290px] h-[40px] border border-red-500 rounded-[20px] mb-[20px] z-50 hover:bg-red-500">
+                    <p className="text-[15px] font-[600]">
+                      Registration closed
+                    </p>
+                  </button>
+                ) : authState.authState ? (
                   <a
                     className="font-[600] w-[190px] h-[40px] text-center pt-2 border border-red-500 rounded-[20px] mb-[20px] z-50 hover:bg-red-500"
                     href={event?.link}
@@ -87,17 +93,13 @@ export default function page() {
                 ) : (
                   <button className="w-[190px] h-[40px] border border-red-500 rounded-[20px] mb-[20px] z-50 hover:bg-red-500">
                     <p
-                      className="test-[10px] font-[600]"
+                      className="text-[10px] font-[600]"
                       onClick={() => signInWithGoogle()}
                     >
                       Sign In To Register
                     </p>
                   </button>
                 )}
-
-                {/* <button className="w-[290px] h-[40px] border border-red-500 rounded-[20px] mb-[20px] z-50 hover:bg-red-500">
-                  <p className="test-[10px] font-[600]">Registeration will open soon</p>
-                </button> */}
               </div>
             </div>
           </div>

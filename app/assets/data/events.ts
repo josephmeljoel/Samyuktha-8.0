@@ -5,6 +5,7 @@ import { link } from "fs";
 var EventData = [
   {
     id: 1,
+    closed: false,
     url: "/spotdance.jpg",
     event_name: "Disco Frenzy",
     event_alternative_name: "SPOT DANCE",
@@ -34,6 +35,7 @@ var EventData = [
   },
   {
     id: 2,
+    closed: false,
     url: "/reelsupdated.jpg",
     link: "https://airtable.com/appgHAVetgIyskG9Q/pagCdWruCgYHjKQbm/form",
     event_name: "Flashback Frames",
@@ -47,22 +49,24 @@ var EventData = [
     head_phonenumber_2: "9496161839",
     first: "2000",
     second: "1000",
-    description:"The Reel Competition is an exciting event where participants showcase their creativity by producing short reels based on a theme provided on the spot. Each reel must convey a compelling message through humor, storytelling, and originality. This competition encourages individual participation and rewards innovative ideas, offering a platform for budding creators to shine. Participants are encouraged to incorporate elements from the ongoing events on the premises to enhance their reels and make them more engaging.",
-        rules: [
-          "The reel should be based on a theme provided on the spot.",
-          "The reel must be an original creation. Plagiarized content will result in disqualification.",
-          "Only individual participation is allowed.",
-          "Each participant is allowed only one entry. Submitting a second entry will lead to disqualification.",
-          "The maximum time limit for the reel is 30 seconds.",
-          "The organizers will share a drive link, and all participants must upload their reels to that drive. The time limit for uploads will be announced on the spot.",
-          "The organizers reserve the right to disqualify entries containing infringing, threatening, misleading, false, abusive, harassing, defamatory, obscene, vulgar, inflammatory, scandalous, pornographic, or profane content.",
-         "The first and second place winners will have the opportunity to collaborate with the Instagram pages Samyukta 8.0 and Vibes of SAINTGITS for their reels.",
-        "No watermarks are allowed on the reels.",
-        "All gadgets, including mobile phones and cameras, can be used to record the reel.",
+    description:
+      "The Reel Competition is an exciting event where participants showcase their creativity by producing short reels based on a theme provided on the spot. Each reel must convey a compelling message through humor, storytelling, and originality. This competition encourages individual participation and rewards innovative ideas, offering a platform for budding creators to shine. Participants are encouraged to incorporate elements from the ongoing events on the premises to enhance their reels and make them more engaging.",
+    rules: [
+      "The reel should be based on a theme provided on the spot.",
+      "The reel must be an original creation. Plagiarized content will result in disqualification.",
+      "Only individual participation is allowed.",
+      "Each participant is allowed only one entry. Submitting a second entry will lead to disqualification.",
+      "The maximum time limit for the reel is 30 seconds.",
+      "The organizers will share a drive link, and all participants must upload their reels to that drive. The time limit for uploads will be announced on the spot.",
+      "The organizers reserve the right to disqualify entries containing infringing, threatening, misleading, false, abusive, harassing, defamatory, obscene, vulgar, inflammatory, scandalous, pornographic, or profane content.",
+      "The first and second place winners will have the opportunity to collaborate with the Instagram pages Samyukta 8.0 and Vibes of SAINTGITS for their reels.",
+      "No watermarks are allowed on the reels.",
+      "All gadgets, including mobile phones and cameras, can be used to record the reel.",
     ],
   },
   {
     id: 3,
+    closed: false,
     url: "/gaming.jpg",
     link: "https://airtable.com/appgHAVetgIyskG9Q/pageRrPdoh0jmamHL/form",
     event_name: "Zeus Odyssey (VALORANT)",
@@ -90,6 +94,7 @@ var EventData = [
   },
   {
     id: 4,
+    closed: false,
     url: "/ideathon.jpg",
     event_name: "Neon Nexus",
     event_alternative_name: "IDEATHON",
@@ -124,6 +129,7 @@ var EventData = [
   },
   {
     id: 5,
+    closed: false,
     url: "/fast-typing.jpg",
     event_name: "Rampage Rush",
     event_alternative_name: "FAST TYPING",
@@ -153,6 +159,7 @@ var EventData = [
   },
   {
     id: 6,
+    closed: false,
     url: "/best-singer.jpg",
     event_name: "Yenme Echoes",
     event_alternative_name: "BEST SINGER",
@@ -187,6 +194,7 @@ var EventData = [
   },
   {
     id: 7,
+    closed: false,
     url: "/quiz.jpg",
     event_name: "Binary brain busters",
     event_alternative_name: "TECHNICAL QUIZ",
@@ -217,6 +225,7 @@ var EventData = [
   },
   {
     id: 8,
+    closed: false,
     url: "/paper.jpg",
     link: "https://airtable.com/appgHAVetgIyskG9Q/pag1pSm4gsW4M2ba1/form",
     event_name: "Classic conclave",
@@ -250,6 +259,7 @@ var EventData = [
   },
   {
     id: 9,
+    closed: true,
     url: "/football.jpg",
     event_name: "old school kickoff (3 x 3)",
     event_alternative_name: "FOOTBALL (3 x 3)",
@@ -281,6 +291,7 @@ var EventData = [
   },
   {
     id: 10,
+    closed: false,
     url: "/photography.jpg",
     event_name: "polaroid perspective",
     event_alternative_name: "PHOTOGRAPHY",
@@ -311,6 +322,7 @@ var EventData = [
   },
   {
     id: 11,
+    closed: false,
     url: "/coding.jpg",
     event_name: "binary arcade",
     link: "https://airtable.com/appgHAVetgIyskG9Q/pagrutAV7m6J2e463/form",
@@ -338,6 +350,7 @@ var EventData = [
   },
   {
     id: 12,
+    closed: false,
     url: "/web.jpg",
     event_name: "back to the browser",
     event_alternative_name: "WEB DESIGNING",
@@ -368,6 +381,7 @@ var EventData = [
   },
   {
     id: 13,
+    closed: false,
     url: "/treasureHunt.jpg",
     event_name: "secret expedition",
     event_alternative_name: "TREASURE HUNT",
@@ -396,6 +410,7 @@ var EventData = [
   },
   {
     id: 14,
+    closed: false,
     url: "/star.jpg",
     event_name: "noval ux of solaris",
     event_alternative_name: "STAR OF SAMYUKTHA",
@@ -425,6 +440,7 @@ var EventData = [
 const FeaturedEvents = [
   {
     id: 14,
+    closed: false,
     url: "/star.jpg",
     event_name: "noval ux of solaris",
     event_alternative_name: "STAR OF SAMYUKTHA",
@@ -451,6 +467,7 @@ const FeaturedEvents = [
   },
   {
     id: 13,
+    closed: false,
     url: "/treasureHunt.jpg",
     event_name: "secret expedition",
     event_alternative_name: "TREASURE HUNT",
@@ -479,6 +496,7 @@ const FeaturedEvents = [
   },
   {
     id: 10,
+    closed: false,
     url: "/photography.jpg",
     event_name: "polaroid perspective",
     event_alternative_name: "PHOTOGRAPHY",
@@ -509,6 +527,7 @@ const FeaturedEvents = [
   },
   {
     id: 6,
+    closed: false,
     url: "/best-singer.jpg",
     event_name: "Yenme Echoes",
     event_alternative_name: "BEST SINGER",
