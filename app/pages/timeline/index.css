@@ -138,7 +138,7 @@
       .timeline ul li:nth-child(odd) .left_content,
     .timeline ul li:nth-child(even) .left_content
     {
-      top:-30px;
+      top:-0px;
       left:50px;
       right:inherit;
     }
