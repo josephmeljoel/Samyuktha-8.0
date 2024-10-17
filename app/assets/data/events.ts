@@ -5,7 +5,7 @@ import { link } from "fs";
 var EventData = [
   {
     id: 1,
-    closed: false,
+    closed: true,
     url: "/spotdance.jpg",
     event_name: "Disco Frenzy",
     event_alternative_name: "SPOT DANCE",
@@ -35,7 +35,7 @@ var EventData = [
   },
   {
     id: 2,
-    closed: false,
+    closed: true,
     url: "/reelsupdated.jpg",
     link: "https://airtable.com/appgHAVetgIyskG9Q/pagCdWruCgYHjKQbm/form",
     event_name: "Flashback Frames",
@@ -66,7 +66,7 @@ var EventData = [
   },
   {
     id: 3,
-    closed: false,
+    closed: true,
     url: "/gaming.jpg",
     link: "https://airtable.com/appgHAVetgIyskG9Q/pageRrPdoh0jmamHL/form",
     event_name: "Zeus Odyssey (VALORANT)",
@@ -94,7 +94,7 @@ var EventData = [
   },
   {
     id: 4,
-    closed: false,
+    closed: true,
     url: "/ideathon.jpg",
     event_name: "Neon Nexus",
     event_alternative_name: "IDEATHON",
@@ -129,7 +129,7 @@ var EventData = [
   },
   {
     id: 5,
-    closed: false,
+    closed: true,
     url: "/fast-typing.jpg",
     event_name: "Rampage Rush",
     event_alternative_name: "FAST TYPING",
@@ -159,7 +159,7 @@ var EventData = [
   },
   {
     id: 6,
-    closed: false,
+    closed: true,
     url: "/best-singer.jpg",
     event_name: "Yenme Echoes",
     event_alternative_name: "BEST SINGER",
@@ -194,7 +194,7 @@ var EventData = [
   },
   {
     id: 7,
-    closed: false,
+    closed: true,
     url: "/quiz.jpg",
     event_name: "Binary brain busters",
     event_alternative_name: "TECHNICAL QUIZ",
@@ -225,7 +225,7 @@ var EventData = [
   },
   {
     id: 8,
-    closed: false,
+    closed: true,
     url: "/paper.jpg",
     link: "https://airtable.com/appgHAVetgIyskG9Q/pag1pSm4gsW4M2ba1/form",
     event_name: "Classic conclave",
@@ -291,7 +291,7 @@ var EventData = [
   },
   {
     id: 10,
-    closed: false,
+    closed: true,
     url: "/photography.jpg",
     event_name: "polaroid perspective",
     event_alternative_name: "PHOTOGRAPHY",
@@ -322,7 +322,7 @@ var EventData = [
   },
   {
     id: 11,
-    closed: false,
+    closed: true,
     url: "/coding.jpg",
     event_name: "binary arcade",
     link: "https://airtable.com/appgHAVetgIyskG9Q/pagrutAV7m6J2e463/form",
@@ -350,7 +350,7 @@ var EventData = [
   },
   {
     id: 12,
-    closed: false,
+    closed: true,
     url: "/web.jpg",
     event_name: "back to the browser",
     event_alternative_name: "WEB DESIGNING",
@@ -381,7 +381,7 @@ var EventData = [
   },
   {
     id: 13,
-    closed: false,
+    closed: true,
     url: "/treasureHunt.jpg",
     event_name: "secret expedition",
     event_alternative_name: "TREASURE HUNT",
@@ -410,7 +410,7 @@ var EventData = [
   },
   {
     id: 14,
-    closed: false,
+    closed: true,
     url: "/star.jpg",
     event_name: "noval ux of solaris",
     event_alternative_name: "STAR OF SAMYUKTHA",
@@ -440,7 +440,7 @@ var EventData = [
 const FeaturedEvents = [
   {
     id: 14,
-    closed: false,
+    closed: true,
     url: "/star.jpg",
     event_name: "noval ux of solaris",
     event_alternative_name: "STAR OF SAMYUKTHA",
@@ -467,7 +467,7 @@ const FeaturedEvents = [
   },
   {
     id: 13,
-    closed: false,
+    closed: true,
     url: "/treasureHunt.jpg",
     event_name: "secret expedition",
     event_alternative_name: "TREASURE HUNT",
@@ -496,7 +496,7 @@ const FeaturedEvents = [
   },
   {
     id: 10,
-    closed: false,
+    closed: true,
     url: "/photography.jpg",
     event_name: "polaroid perspective",
     event_alternative_name: "PHOTOGRAPHY",
@@ -527,7 +527,7 @@ const FeaturedEvents = [
   },
   {
     id: 6,
-    closed: false,
+    closed: true,
     url: "/best-singer.jpg",
     event_name: "Yenme Echoes",
     event_alternative_name: "BEST SINGER",
